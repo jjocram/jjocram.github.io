@@ -11,5 +11,8 @@ function getPublicPath() {
 }
 
 module.exports = {
-  publicPath: getPublicPath()
+  publicPath: getPublicPath(),
+  css: {
+    extract: true
+  }
 }
