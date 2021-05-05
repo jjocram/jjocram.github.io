@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header></Header>
+  <AboutMe></AboutMe>
+  <Projects></Projects>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import AboutMe from './components/AboutMe.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    AboutMe,
+    Projects
+  },
+  created() {
+    document.title = 'Marco Ferrati | Portfolio';
+    var fontAwesomeScript = document.createElement('script');
+    fontAwesomeScript.src = 'https://use.fontawesome.com/d525360c90.js'
+    document.head.appendChild(fontAwesomeScript);
   }
 }
 </script>
@@ -19,8 +30,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

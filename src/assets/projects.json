@@ -1,0 +1,24 @@
+[
+  {
+    "title": "ASCIIMoji",
+    "paragraphs": [
+      "A Command Line Interface developed with Rust.", 
+      "I don't like the classical emoticons (&#128540;), in the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type so i'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
+      "For example <code>asciimoji shrug</code> will print on the terminal ¯\\_(ツ)_/¯ (this is a particular type of emoticon called kaomoji).",
+      "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."],
+      "links": [
+        {
+          "name": "GitLab repository",
+          "link": "https://gitlab.com/jjocram/asciimoji"
+        },
+        {
+          "name": "Crates.io page",
+          "link": "https://crates.io/crates/asciimoji"
+        },
+        {
+          "name": "Homebrew tap GitHub repository",
+          "link": "https://github.com/jjocram/homebrew-asciimoji"
+        }
+      ]
+  }
+]
