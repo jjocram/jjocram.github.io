@@ -4,7 +4,7 @@
     "tags": ["Rust", "CLI"],
     "paragraphs": [
       "A Command Line Interface developed with Rust.", 
-      "I don't like the classical emoticons (&#128540;), in the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type so i'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
+      "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
       "For example <code>asciimoji shrug</code> will print on the terminal ¯\\_(ツ)_/¯ (this is a particular type of emoticon called kaomoji).",
       "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."],
       "links": [
@@ -67,7 +67,7 @@
   {
     "title": "UniBO Calendar",
     "tags": ["Python", "Flask", "Beautifulsoup", "web scrapping"],
-    "paragraphs": ["Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson time table and export it to iCal format."],
+    "paragraphs": ["Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format."],
     "links": [
       {
         "name": "Source code",
@@ -79,7 +79,7 @@
     "title": "QardGame",
     "tags": ["C++", "Qt", "OOP"],
     "paragraphs": [
-      "This is a project developed for the university course: Object Oriented Programming",
+      "This is a project developed for the university course: Object-Oriented Programming",
       "Developed with C++ and Qt, it is a turn based card game with a complex hierarchy/card combination and a simply gamepaly."
     ],
     "links": [
