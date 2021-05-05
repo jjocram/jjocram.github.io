@@ -6,7 +6,7 @@ function getPublicPath() {
     case 'glab-production':
       return '/jjocram.gitlab.io/';
     default:
-      return '/';
+      return '/test';
   }
 }
 
