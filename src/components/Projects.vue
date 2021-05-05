@@ -6,7 +6,7 @@
         This section contains the projects I worked and I'm working on
       </h2>
     </div>
-        <div class="card" v-for="project in projects" :key="project.title">
+        <div class="card mb-4" v-for="project in projects" :key="project.title">
           <header class="card-header">
             <p class="card-header-title">
             {{ project.title }}

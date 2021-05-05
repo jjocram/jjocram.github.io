@@ -20,5 +20,45 @@
           "link": "https://github.com/jjocram/homebrew-asciimoji"
         }
       ]
+  },
+  {
+    "title": "ACMESky",
+    "paragraphs": [
+      "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Service Oriented Software Engineering",
+      "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
+      "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
+    ],
+    "links": [
+      {
+        "name": "Source code",
+        "link": "https://github.com/sosengers/project-sources"
+      },
+      {
+        "name": "Documentation",
+        "link": "https://sosengers.github.io/project-documentation/"
+      },
+      {
+        "name": "Documentation source code",
+        "link": "https://github.com/sosengers/project-documentation"
+      }
+    ]
+  },
+  {
+    "title": "Vehicle Routing Problem solved with Constraint Programming",
+    "paragraphs": [
+      "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Decision Making With Constraint Programming",
+      "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
+
+    ],
+    "links": [
+      {
+        "name": "Source code",
+        "link": "https://gitlab.com/jjocram/vrp-csp"
+      },
+      {
+        "name": "Vehicle routing problem description",
+        "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
+      }
+    ]
   }
 ]
