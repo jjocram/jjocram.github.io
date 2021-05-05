@@ -14,5 +14,7 @@
               node-version: '14'
           - name: Install packages
             run: npm i
+          - name: Set Creds
+            run: git config user.name "jjocram" && git config user.email "marco.ferrati@protonmail.com"
           - name: Deploy
             run: npm run gh-deploy
