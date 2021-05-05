@@ -2,7 +2,7 @@
   on:
     push:
       branches:
-        - main
+        - master
   jobs:
     gh-pages-deploy:
       name: Deploying to Github Pages
