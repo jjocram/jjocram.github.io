@@ -1,24 +1,5 @@
-# marcoferratiportfolio
+# Marco Ferrati | Portfolio
 
-## Project setup
-```
-npm install
-```
+Hi everyone, this is my portfolio website. It is developed with Vue.js and Bulma. Check it out:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Automatomatic deployed on GitHub: [Marco Ferrati | Portfolio](https://jjocram.github.io)
