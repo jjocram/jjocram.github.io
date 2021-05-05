@@ -1,6 +1,7 @@
 [
   {
     "title": "ASCIIMoji",
+    "tags": ["Rust", "CLI"],
     "paragraphs": [
       "A Command Line Interface developed with Rust.", 
       "I don't like the classical emoticons (&#128540;), in the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type so i'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
@@ -23,6 +24,7 @@
   },
   {
     "title": "ACMESky",
+    "tags": ["SWE", "SOA", "BPMN", "Docker", "OpenAPI", "Python", "RabbitMQ", "Redis", "PostgreSQL", "Angular", "WebSocket", "MKDocs"],
     "paragraphs": [
       "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Service Oriented Software Engineering",
       "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
@@ -45,6 +47,7 @@
   },
   {
     "title": "Vehicle Routing Problem solved with Constraint Programming",
+    "tags": ["MiniZinc", "Minimization problem", "Constraint programming"],
     "paragraphs": [
       "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Decision Making With Constraint Programming",
       "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
@@ -58,6 +61,31 @@
       {
         "name": "Vehicle routing problem description",
         "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
+      }
+    ]
+  },
+  {
+    "title": "UniBO Calendar",
+    "tags": ["Python", "Flask", "Beautifulsoup", "web scrapping"],
+    "paragraphs": ["Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson time table and export it to iCal format."],
+    "links": [
+      {
+        "name": "Source code",
+        "link": "https://gitlab.com/jjocram/unibo-calendar"
+      }
+    ]
+  },
+  {
+    "title": "QardGame",
+    "tags": ["C++", "Qt", "OOP"],
+    "paragraphs": [
+      "This is a project developed for the university course: Object Oriented Programming",
+      "Developed with C++ and Qt, it is a turn based card game with a complex hierarchy/card combination and a simply gamepaly."
+    ],
+    "links": [
+      {
+        "name": "Source code",
+        "link": "https://gitlab.com/jjocram/qardgame"
       }
     ]
   }

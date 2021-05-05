@@ -11,6 +11,11 @@
             <p class="card-header-title">
             {{ project.title }}
             </p>
+            <div class="tags">
+              <span class="tag is-light" v-for="tag in project.tags" :key="tag">
+                {{ tag }}
+              </span>
+            </div>
           </header>
 
           <div class="card-content">
