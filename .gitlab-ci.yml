@@ -2,9 +2,11 @@ image: "node:14"
 pages:
   stage: deploy
   script:
-    - npm install --progress=false
+    - npm install
     - npm run build
-    - mv dist public
+    - rm -rf public
+    - mkdir public
+    - cp -r dist/* public
   artifacts:
     expire_in: 1 day
     paths:
