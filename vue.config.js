@@ -1,5 +1,15 @@
+
+function getPublicPath() {
+  switch(process.env.NODE_ENV) {
+    case 'gh-production':
+      return '/jjocram.github.io/';
+    case 'glab-production':
+      return '/';
+    default:
+      return '/';
+  }
+}
+
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/jjocram.github.io/'
-  : '/'
+  publicPath: getPublicPath()
 }
