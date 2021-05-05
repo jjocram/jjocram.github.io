@@ -4,9 +4,9 @@ function getPublicPath() {
     case 'gh-production':
       return '/jjocram.github.io/';
     case 'glab-production':
-      return '/jjocram.gitlab.io/';
+      return '/';
     default:
-      return '/test';
+      return '/';
   }
 }
 
