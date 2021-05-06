@@ -4,7 +4,7 @@
     "tags": ["Rust", "CLI"],
     "paragraphs": [
       "A Command Line Interface developed with Rust.", 
-      "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
+      "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
       "For example <code>asciimoji shrug</code> will print on the terminal ¯\\_(ツ)_/¯ (this is a particular type of emoticon called kaomoji).",
       "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."],
       "links": [
@@ -42,6 +42,30 @@
       {
         "name": "Documentation source code",
         "link": "https://github.com/sosengers/project-documentation"
+      }
+    ]
+  },
+  {
+    "title": "Stalker (it's not what you think)",
+    "tags": ["SWE", "QA", "Python", "Flask", "Angular", "Angular Material", "Leaflet", "Android", "Java", "Docker", "Kubernetes", "Google Cloud Platform", "LDAP", "PostgreSQL", "RethinkDB"],
+    "paragraphs": [
+      "This is a project composed by three component designed and implemented for the university course: Software Engineering",
+      "I worked mostly on the backend and on the admin web application, it was a group project and the goup was composed by eight people.",
+      "It's aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their work place, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application comunicate with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be used also from anonymous people (simply without logging in) to increment a counter to keep the count on how much people there are inside an area. This was thought, in case of emergency, to have an approsimative number of people inside an area",
+      "We used Kubernetes to deploy the backend on Google Cloud Platform."
+    ],
+    "links":[
+      {
+        "name": "Backend source code",
+        "link": "https://gitlab.com/jjocram/Stalker_backend"
+      },
+      {
+        "name": "Admin web application source code",
+        "link": "https://gitlab.com/jjocram/Stalker_webapp"
+      },
+      {
+        "name": "Android app source code",
+        "link": "https://gitlab.com/jjocram/Stalker_App"
       }
     ]
   },
