@@ -112,5 +112,27 @@
         "link": "https://gitlab.com/jjocram/qardgame"
       }
     ]
+  },
+  {
+    "title": "Redesign dashboard Covid-19 Italy 'Protezione Civile' [Italian]",
+    "tags": ["UUX", "UI", "Accessibility", "LaTeX"],
+    "paragraphs": [
+      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a> and me  for the university course: Usability and User Experience Design.",
+      "It's a design project, our aim was to redesing the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made an ethnographical reasearch to understand what tools are used by the journalist, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
+    ],
+    "links": [
+      {
+        "name": "Main GitHub repository",
+        "link": "https://github.com/MickPerl/PlainX_Redesign-Dashboard-Covid-Protezione-Civile"
+      },
+      {
+        "name": "PDF report GitHub repository",
+        "link": "https://github.com/MickPerl/PlainX_Project-Management-Report/tree/5ad4ab2ee5b4e5e094ca472a5a909aa2ae69ce16"
+      },
+      {
+        "name": "PDF final design GitHub repository",
+        "link": "https://github.com/MickPerl/PlainX_Final-Design/tree/9eb6ab7401e890bd35a31fe8696f0497a7db1c7b"
+      }
+    ]
   }
 ]
