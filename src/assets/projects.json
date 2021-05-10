@@ -91,11 +91,18 @@
   {
     "title": "UniBO Calendar",
     "tags": ["Python", "Flask", "Beautifulsoup", "web scrapping"],
-    "paragraphs": ["Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format."],
+    "paragraphs": [
+      "Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
+      "The application is built and deployed through GitLab CI/CD."
+    ],
     "links": [
       {
         "name": "Source code",
         "link": "https://gitlab.com/jjocram/unibo-calendar"
+      },
+      {
+        "name": "UniBo Calendar on Heroku (it could be a bit slowy at start time)",
+        "link": "https://unibocalendar.herokuapp.com"
       }
     ]
   },
