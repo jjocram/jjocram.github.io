@@ -161,7 +161,8 @@
     "tags": ["Vue.js", "GitLab CI/CD", "GitHub Actions"],
     "paragraphs": [
       "This website is my portfolio where I describe all my personal and accademic projects.",
-      "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action."
+      "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
+      "The projects \"posts\" are automatically generated from a json file."
     ],
     "links": [
       {
@@ -171,6 +172,24 @@
       {
         "name": "GitHub Repository",
         "link": "https://github.com/jjocram/jjocram.github.io"
+      }
+    ]
+  },
+  {
+    "title": "RaspyBot",
+    "tags": ["Python", "Telegram Bot", "python-telegram-bot"],
+    "paragraphs": [
+      "This bot allows to manage a Raspberry Pi.",
+      "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperatuyre of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
+    ],
+    "links": [
+      {
+        "name": "GitLab Repository",
+        "link": "https://gitlab.com/jjocram/RaspyBot"
+      },
+      {
+        "name": "Telegram bot",
+        "link": "https://t.me/marcosraspybot"
       }
     ]
   }
