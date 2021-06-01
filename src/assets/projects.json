@@ -146,13 +146,31 @@
     "title": "Italy 2018 Election data analysis",
     "tags": ["Wolfram Mathematica"],
     "paragraphs": [
-      "This is a project developed by by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a>, Vittoria Conte and me for the university course: Computational Mathematics.",
+      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a>, Vittoria Conte and me for the university course: Computational Mathematics.",
       "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyse them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality show some charts generated in Mathemathica through a device."
     ],
     "links": [
       {
         "name": "GitHub Repository",
         "link": "https://github.com/jjocram/italy-2018-election-data-mathematica"
+      }
+    ]
+  },
+  {
+    "title": "My Portfolio (this website)",
+    "tags": ["Vue.js", "GitLab CI/CD", "GitHub Actions"],
+    "paragraphs": [
+      "This website is my portfolio where I describe all my personal and accademic projects.",
+      "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action."
+    ],
+    "links": [
+      {
+        "name": "GitLab Repository",
+        "link": "https://gitlab.com/jjocram/jjocram.gitlab.io"
+      },
+      {
+        "name": "GitHub Repository",
+        "link": "https://github.com/jjocram/jjocram.github.io"
       }
     ]
   }
