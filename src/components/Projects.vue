@@ -25,7 +25,7 @@
           </div>
 
           <footer class="card-footer">
-            <a v-for="link in project.links" :key="link.link" href="{{ link.link }}" target="_blank" class="card-footer-item">
+            <a v-for="link in project.links" :key="link.link" v-bind:href="link.link" target="_blank" class="card-footer-item">
               {{ link.name }}
             </a>
           </footer>
