@@ -1,196 +1,274 @@
 [
-  {
-    "title": "ASCIIMoji",
-    "tags": ["Rust", "CLI"],
-    "paragraphs": [
-      "A Command Line Interface developed with Rust.", 
-      "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
-      "For example <code>asciimoji shrug</code> will print on the terminal ¯\\_(ツ)_/¯ (this is a particular type of emoticon called kaomoji).",
-      "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."],
-      "links": [
-        {
-          "name": "GitLab repository",
-          "link": "https://gitlab.com/jjocram/asciimoji"
-        },
-        {
-          "name": "Crates.io page",
-          "link": "https://crates.io/crates/asciimoji"
-        },
-        {
-          "name": "Homebrew tap GitHub repository",
-          "link": "https://github.com/jjocram/homebrew-asciimoji"
-        }
-      ]
-  },
-  {
-    "title": "ACMESky",
-    "tags": ["SWE", "SOA", "BPMN", "Docker", "OpenAPI", "Python", "RabbitMQ", "Redis", "PostgreSQL", "Angular", "WebSocket", "MKDocs"],
-    "paragraphs": [
-      "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Service Oriented Software Engineering",
-      "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
-      "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://github.com/sosengers/project-sources"
-      },
-      {
-        "name": "Documentation",
-        "link": "https://sosengers.github.io/project-documentation/"
-      },
-      {
-        "name": "Documentation source code",
-        "link": "https://github.com/sosengers/project-documentation"
-      }
-    ]
-  },
-  {
-    "title": "Stalker (it's not what you think)",
-    "tags": ["SWE", "QA", "Python", "Flask", "Angular", "Angular Material", "Leaflet", "Android", "Java", "Docker", "Kubernetes", "Google Cloud Platform", "LDAP", "PostgreSQL", "RethinkDB"],
-    "paragraphs": [
-      "This is a project composed by three component designed and implemented for the university course: Software Engineering",
-      "I worked mostly on the backend and on the admin web application, it was a group project and the goup was composed by eight people.",
-      "It's aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their work place, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application comunicate with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be used also from anonymous people (simply without logging in) to increment a counter to keep the count on how much people there are inside an area. This was thought, in case of emergency, to have an approsimative number of people inside an area",
-      "We used Kubernetes to deploy the backend on Google Cloud Platform."
-    ],
-    "links":[
-      {
-        "name": "Backend source code",
-        "link": "https://gitlab.com/jjocram/Stalker_backend"
-      },
-      {
-        "name": "Admin web application source code",
-        "link": "https://gitlab.com/jjocram/Stalker_webapp"
-      },
-      {
-        "name": "Android app source code",
-        "link": "https://gitlab.com/jjocram/Stalker_App"
-      }
-    ]
-  },
-  {
-    "title": "Vehicle Routing Problem solved with Constraint Programming",
-    "tags": ["MiniZinc", "Minimization problem", "Constraint programming"],
-    "paragraphs": [
-      "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Decision Making With Constraint Programming",
-      "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
-
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/vrp-csp"
-      },
-      {
-        "name": "Vehicle routing problem description",
-        "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
-      }
-    ]
-  },
-  {
-    "title": "UniBO Calendar",
-    "tags": ["Python", "Flask", "Beautifulsoup", "web scrapping"],
-    "paragraphs": [
-      "Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
-      "The application is built and deployed through GitLab CI/CD."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/unibo-calendar"
-      },
-      {
-        "name": "UniBo Calendar on Heroku (it could be a bit slowy at start time)",
-        "link": "https://unibocalendar.herokuapp.com"
-      }
-    ]
-  },
-  {
-    "title": "QardGame",
-    "tags": ["C++", "Qt", "OOP"],
-    "paragraphs": [
-      "This is a project developed for the university course: Object-Oriented Programming",
-      "Developed with C++ and Qt, it is a turn based card game with a complex hierarchy/card combination and a simply gamepaly."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/qardgame"
-      }
-    ]
-  },
-  {
-    "title": "Redesign dashboard Covid-19 Italy 'Protezione Civile' [Italian]",
-    "tags": ["UUX", "UI", "Accessibility", "LaTeX"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a> and me  for the university course: Usability and User Experience Design.",
-      "It's a design project, our aim was to redesing the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made an ethnographical reasearch to understand what tools are used by the journalist, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
-    ],
-    "links": [
-      {
-        "name": "Main GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Redesign-Dashboard-Covid-Protezione-Civile"
-      },
-      {
-        "name": "PDF report GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Project-Management-Report/tree/5ad4ab2ee5b4e5e094ca472a5a909aa2ae69ce16"
-      },
-      {
-        "name": "PDF final design GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Final-Design/tree/9eb6ab7401e890bd35a31fe8696f0497a7db1c7b"
-      }
-    ]
-  },
-  {
-    "title": "Italy 2018 Election data analysis",
-    "tags": ["Wolfram Mathematica"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a>, Vittoria Conte and me for the university course: Computational Mathematics.",
-      "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyse them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality show some charts generated in Mathemathica through a device."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/italy-2018-election-data-mathematica"
-      }
-    ]
-  },
-  {
-    "title": "My Portfolio (this website)",
-    "tags": ["Vue.js", "GitLab CI/CD", "GitHub Actions"],
-    "paragraphs": [
-      "This website is my portfolio where I describe all my personal and accademic projects.",
-      "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
-      "The projects \"posts\" are automatically generated from a json file."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/jjocram.gitlab.io"
-      },
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/jjocram.github.io"
-      }
-    ]
-  },
-  {
-    "title": "RaspyBot",
-    "tags": ["Python", "Telegram Bot", "python-telegram-bot"],
-    "paragraphs": [
-      "This bot allows to manage a Raspberry Pi.",
-      "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperatuyre of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/RaspyBot"
-      },
-      {
-        "name": "Telegram bot",
-        "link": "https://t.me/marcosraspybot"
-      }
-    ]
-  }
+    {
+        "title": "ASCIIMoji",
+        "tags": [
+            "Rust",
+            "CLI"
+        ],
+        "paragraphs": [
+            "A Command Line Interface developed with Rust.",
+            "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
+            "For example <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
+            "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."
+        ],
+        "links": [
+            {
+                "name": "GitLab repository",
+                "link": "https://gitlab.com/jjocram/asciimoji"
+            },
+            {
+                "name": "Crates.io page",
+                "link": "https://crates.io/crates/asciimoji"
+            },
+            {
+                "name": "Homebrew tap GitHub repository",
+                "link": "https://github.com/jjocram/homebrew-asciimoji"
+            }
+        ]
+    },
+    {
+        "title": "ACMESky",
+        "tags": [
+            "SWE",
+            "SOA",
+            "BPMN",
+            "Docker",
+            "OpenAPI",
+            "Python",
+            "RabbitMQ",
+            "Redis",
+            "PostgreSQL",
+            "Angular",
+            "WebSocket",
+            "MKDocs"
+        ],
+        "paragraphs": [
+            "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Service Oriented Software Engineering",
+            "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
+            "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://github.com/sosengers/project-sources"
+            },
+            {
+                "name": "Documentation",
+                "link": "https://sosengers.github.io/project-documentation/"
+            },
+            {
+                "name": "Documentation source code",
+                "link": "https://github.com/sosengers/project-documentation"
+            }
+        ]
+    },
+    {
+        "title": "Stalker (it's not what you think)",
+        "tags": [
+            "SWE",
+            "QA",
+            "Python",
+            "Flask",
+            "Angular",
+            "Angular Material",
+            "Leaflet",
+            "Android",
+            "Java",
+            "Docker",
+            "Kubernetes",
+            "Google Cloud Platform",
+            "LDAP",
+            "PostgreSQL",
+            "RethinkDB"
+        ],
+        "paragraphs": [
+            "This is a project composed by three component designed and implemented for the university course: Software Engineering",
+            "I worked mostly on the backend and on the admin web application, it was a group project and the goup was composed by eight people.",
+            "It's aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their work place, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application comunicate with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be used also from anonymous people (simply without logging in) to increment a counter to keep the count on how much people there are inside an area. This was thought, in case of emergency, to have an approsimative number of people inside an area",
+            "We used Kubernetes to deploy the backend on Google Cloud Platform."
+        ],
+        "links": [
+            {
+                "name": "Backend source code",
+                "link": "https://gitlab.com/jjocram/Stalker_backend"
+            },
+            {
+                "name": "Admin web application source code",
+                "link": "https://gitlab.com/jjocram/Stalker_webapp"
+            },
+            {
+                "name": "Android app source code",
+                "link": "https://gitlab.com/jjocram/Stalker_App"
+            }
+        ]
+    },
+    {
+        "title": "Vehicle Routing Problem solved with Constraint Programming",
+        "tags": [
+            "MiniZinc",
+            "Minimization problem",
+            "Constraint programming"
+        ],
+        "paragraphs": [
+            "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Decision Making With Constraint Programming",
+            "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/vrp-csp"
+            },
+            {
+                "name": "Vehicle routing problem description",
+                "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
+            }
+        ]
+    },
+    {
+        "title": "UniBO Calendar",
+        "tags": [
+            "Python",
+            "Flask",
+            "Beautifulsoup",
+            "web scrapping"
+        ],
+        "paragraphs": [
+            "Web application developed with flask and beautifulsoup which scrap the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
+            "The application is built and deployed through GitLab CI/CD."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/unibo-calendar"
+            },
+            {
+                "name": "UniBo Calendar on Heroku (it could be a bit slowy at start time)",
+                "link": "https://unibocalendar.herokuapp.com"
+            }
+        ]
+    },
+    {
+        "title": "QardGame",
+        "tags": [
+            "C++",
+            "Qt",
+            "OOP"
+        ],
+        "paragraphs": [
+            "This is a project developed for the university course: Object-Oriented Programming",
+            "Developed with C++ and Qt, it is a turn based card game with a complex hierarchy/card combination and a simply gamepaly."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/qardgame"
+            }
+        ]
+    },
+    {
+        "title": "Redesign dashboard Covid-19 Italy 'Protezione Civile' [Italian]",
+        "tags": [
+            "UUX",
+            "UI",
+            "Accessibility",
+            "LaTeX"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a> and me  for the university course: Usability and User Experience Design.",
+            "It's a design project, our aim was to redesing the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made an ethnographical reasearch to understand what tools are used by the journalist, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
+        ],
+        "links": [
+            {
+                "name": "Main GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Redesign-Dashboard-Covid-Protezione-Civile"
+            },
+            {
+                "name": "PDF report GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Project-Management-Report/tree/5ad4ab2ee5b4e5e094ca472a5a909aa2ae69ce16"
+            },
+            {
+                "name": "PDF final design GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Final-Design/tree/9eb6ab7401e890bd35a31fe8696f0497a7db1c7b"
+            }
+        ]
+    },
+    {
+        "title": "Italy 2018 Election data analysis",
+        "tags": [
+            "Wolfram Mathematica"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a>, Vittoria Conte and me for the university course: Computational Mathematics.",
+            "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyse them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality show some charts generated in Mathemathica through a device."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/italy-2018-election-data-mathematica"
+            }
+        ]
+    },
+    {
+        "title": "My Portfolio (this website)",
+        "tags": [
+            "Vue.js",
+            "GitLab CI/CD",
+            "GitHub Actions"
+        ],
+        "paragraphs": [
+            "This website is my portfolio where I describe all my personal and accademic projects.",
+            "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
+            "The projects \"posts\" are automatically generated from a json file."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/jjocram.gitlab.io"
+            },
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/jjocram.github.io"
+            }
+        ]
+    },
+    {
+        "title": "RaspyBot",
+        "tags": [
+            "Python",
+            "Telegram Bot",
+            "python-telegram-bot"
+        ],
+        "paragraphs": [
+            "This bot allows to manage a Raspberry Pi.",
+            "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperatuyre of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/RaspyBot"
+            },
+            {
+                "name": "Telegram bot",
+                "link": "https://t.me/marcosraspybot"
+            }
+        ]
+    },
+    {
+        "title": "System Simulation - Queue Network simulation",
+        "tags": [
+            "Omnet++",
+            "C++",
+            "Python"
+        ],
+        "paragraphs": [
+            "This is a project developed for the university course: System Simulation.",
+            "I developed two different networks with Omnet++ IDE and run the simulation for both of them. Then I analyzed the data obtained from the simulations to get some performance measures."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/simulazionedisistemi"
+            }
+        ]
+    }
 ]
