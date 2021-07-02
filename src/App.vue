@@ -1,12 +1,14 @@
 <template>
   <Header></Header>
   <AboutMe></AboutMe>
+  <Statistics></Statistics>
   <Projects></Projects>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import AboutMe from './components/AboutMe.vue'
+import Statistics from './components/Statistics.vue'
 import Projects from './components/Projects.vue'
 
 export default {
@@ -14,6 +16,7 @@ export default {
   components: {
     Header,
     AboutMe,
+    Statistics,
     Projects
   },
   created() {
