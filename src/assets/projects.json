@@ -270,5 +270,25 @@
                 "link": "https://gitlab.com/jjocram/simulazionedisistemi"
             }
         ]
+    },
+    {
+        "title": "Url Follower Remover",
+        "tags": [
+            "Swift",
+            "JS",
+            "SafariWebExtension",
+            "macOS"
+        ],
+        "paragraphs": [
+            "This project aims to create a Safari Web Extension to avoid some websites to open links with their URL placed in front of the real URL.",
+            "This project is also a way to show my abilities to create macOS applications and extensions with the Swift Programming Language.",
+            "The Web Extension is written in JavaScript and could be exported to other browser in future."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/urlfollowerremover"
+            }
+        ]
     }
 ]
