@@ -9,7 +9,7 @@ while new_project_flag:
     new_project["title"] = input("Project title: ")
 
     string_tags = input("Tags (separated by a comma): ")
-    new_project["tags"] = [s.replace(' ', '') for s in string_tags.split(",")]
+    new_project["tags"] = [s.lstrip().rstrip() for s in string_tags.split(",")]
 
     paragraphs = []
     print("Paragraphs (separated by a new line): ")
