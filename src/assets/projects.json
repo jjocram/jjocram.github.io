@@ -43,7 +43,7 @@
             "MKDocs"
         ],
         "paragraphs": [
-            "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Service Oriented Software Engineering",
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Service Oriented Software Engineering",
             "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
             "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
         ],
@@ -82,7 +82,7 @@
             "RethinkDB"
         ],
         "paragraphs": [
-            "This is a project composed by three component designed and implemented for the university course: Software Engineering",
+            "This is a project composed by three components designed and implemented for the university course: Software Engineering",
             "I worked mostly on the backend and on the admin web application, it was a group project and the goup was composed by eight people.",
             "It's aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their work place, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application comunicate with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be used also from anonymous people (simply without logging in) to increment a counter to keep the count on how much people there are inside an area. This was thought, in case of emergency, to have an approsimative number of people inside an area",
             "We used Kubernetes to deploy the backend on Google Cloud Platform."
@@ -110,7 +110,7 @@
             "Constraint programming"
         ],
         "paragraphs": [
-            "This is a project developed by me and <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> for the university course: Decision Making With Constraint Programming",
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Decision Making With Constraint Programming",
             "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
         ],
         "links": [
@@ -174,7 +174,7 @@
             "LaTeX"
         ],
         "paragraphs": [
-            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a> and me  for the university course: Usability and User Experience Design.",
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Usability and User Experience Design.",
             "It's a design project, our aim was to redesing the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made an ethnographical reasearch to understand what tools are used by the journalist, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
         ],
         "links": [
@@ -198,7 +198,7 @@
             "Wolfram Mathematica"
         ],
         "paragraphs": [
-            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <h href=\"https://github.com/MickPerl\">Michele Perlino</a>, Vittoria Conte and me for the university course: Computational Mathematics.",
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a>, <a href=\"https://github.com/Viktory97\">Vittoria Conte</a> and me for the university course: Computational Mathematics.",
             "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyse them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality show some charts generated in Mathemathica through a device."
         ],
         "links": [
