@@ -299,7 +299,7 @@
             "Antlr4",
             "Java11",
             "Maven",
-            "Staticanalysis"
+            "Static analysis"
         ],
         "paragraphs": [
             "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>and me for the university course: Compilers and Interpreters.",
