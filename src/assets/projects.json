@@ -262,7 +262,7 @@
         ],
         "paragraphs": [
             "This is a project developed for the university course: System Simulation.",
-            "I developed two different networks with Omnet++ IDE and run the simulation for both of them. Then I analyzed the data obtained from the simulations to get some performance measures."
+            "I developed two different networks with Omnet++ IDE and run the simulation for both of them. Then I analysed the data obtained from the simulations to get some performance measures."
         ],
         "links": [
             {
@@ -288,6 +288,30 @@
             {
                 "name": "GitLab Repository",
                 "link": "https://gitlab.com/jjocram/urlfollowerremover"
+            }
+        ]
+    },
+    {
+        "title": "SimpLanPlus",
+        "tags": [
+            "Compiler",
+            "Interpreter",
+            "Antlr4",
+            "Java11",
+            "Maven",
+            "Staticanalysis"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>and me for the university course: Compilers and Interpreters.",
+            "We used antlr4 language to define a grammar for the SimpLanPlus programming language and the tools provided by antlr to generate the lexer, the parser and some other interfaces to read a program written in SimpLanPlus.",
+            "We defined the node for the Abstract Syntax Tree which provides three key methods: <ul><li>Semantic and Effect checker</li><li>Type checker</li><li>Code generator</li></ul>",
+            "We defined an assembly-like language and implemented an interpreter to compute the programs written in SimpLanPlus.",
+            "The most interest part of this project was the semantic and effect checker of the compiler. It can identify at compile time errors like: undeclared variables and functions and memory errors like pointers not handled correctly (delete after delete, read after delete and so on). Another interesting part of the project was the interpreter and the code generation. We did (more or less) the same thing Java does: we compile the SimpLanPlus program in an intermediate language and then the interpreter interpretes that language."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/SimpLanPlus"
             }
         ]
     }
