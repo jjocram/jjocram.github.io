@@ -321,7 +321,8 @@
             "Rust"
         ],
         "paragraphs": [
-            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accept a yaml file in input which represents the directories, subdirectories and files of the project."
+            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accept a yaml file in input which represents the directories, subdirectories and files of the project.",
+            "The aim is to create an hub where users can upload their project templates files for themselves and other users."
         ],
         "links": [
             {
