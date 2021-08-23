@@ -314,5 +314,20 @@
                 "link": "https://github.com/jjocram/SimpLanPlus"
             }
         ]
+    },
+    {
+        "title": "Project Template",
+        "tags": [
+            "Rust"
+        ],
+        "paragraphs": [
+            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accept a yaml file in input which represents the directories, subdirectories and files of the project."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/project-template"
+            }
+        ]
     }
 ]
