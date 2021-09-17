@@ -330,5 +330,34 @@
                 "link": "https://gitlab.com/jjocram/project-template"
             }
         ]
+    },
+    {
+        "title": "Deep learning network for school dropout",
+        "tags": [
+            "Machine Learning",
+            "Deep Learning",
+            "Python",
+            "Tensorflow",
+            "Keras",
+            "Pandas",
+            "Jupyter Notebook",
+            "Artificial Intelligence"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Artificial Intelligence.",
+            "We started from the INVALSI dataset which was analyzed with Python and Pandas to identify correlations between columns, to convert questions in subject matter and mental process and other EDA (Exploratory Data Analysis) operations. We resampled the dataset trying different techniques like random-undersampling and SMOTE.",
+            "Then, we used Keras and Tensorflow to build a neural network to determine, if a student (beginning from his/her INVALSI result) could be a risk to \"drop\" (with the meaning of finish the mandatory school but with a very low performance) the school. ",
+            "We explored the use of different layers and different network architecture. We began with the input layers, they are mapped to the features identified in the dataset during its analysis. Then, we added an encoding layer for each input to convert them in a way which will simplify the work to the network. Then, we used a sequence of layers each one with a custom number (128 by default) of neurons fully connected to the neurons of the next layer, each neurons is activated by a function choosen between ReLU and Leaky ReLU. After this sequence there could be a dropout layer and/or a batch normalization layer. Lastly, the output layer: one neuron activated by the Sigmoid function (in the case when we consider the problem a regression problem) or two neurons activated by the Softmax function (in the case when we consider the problem a classification problem).",
+            "We compiled the model with Adam as optimizer and the crossentropy as loss function. ",
+            "We used an early stopper to avoid the over-fitting problem and trained the model for 50-100 epoches.",
+            "Finaly we used the confusion matrix obtained from the training data, validation data and the test data to draw our conclusions about how much accurate our model was.",
+            "We tried different hyperparameters looking for the best configuration. We wrote (in italian) our results (and the different operations performed) in a Jupyter Notebook available in the repository."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/MickPerl/MachineLearningProject"
+            }
+        ]
     }
 ]
