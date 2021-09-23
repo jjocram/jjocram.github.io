@@ -7,8 +7,8 @@
         ],
         "paragraphs": [
             "A Command Line Interface developed with Rust.",
-            "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remeber how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located ot the disk and downloaded from the repository the emoticon asocciated to a name.",
-            "For example <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
+            "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remember how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located on the disk and downloaded from the repository the emoticon assocciated to a name.",
+            "For example, <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
             "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."
         ],
         "links": [
@@ -43,8 +43,8 @@
             "MKDocs"
         ],
         "paragraphs": [
-            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Service Oriented Software Engineering",
-            "Its aim was to design and implement a Service Oriented Architecture, the company ACMESky is a website that allows to the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Service Oriented Software Engineering.",
+            "Its aim was to design and implement a Service-Oriented Architecture. The company ACMESky is a website that allows the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
             "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
         ],
         "links": [
@@ -82,10 +82,10 @@
             "RethinkDB"
         ],
         "paragraphs": [
-            "This is a project composed by three components designed and implemented for the university course: Software Engineering",
-            "I worked mostly on the backend and on the admin web application, it was a group project and the goup was composed by eight people.",
-            "It's aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their work place, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application comunicate with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be used also from anonymous people (simply without logging in) to increment a counter to keep the count on how much people there are inside an area. This was thought, in case of emergency, to have an approsimative number of people inside an area",
-            "We used Kubernetes to deploy the backend on Google Cloud Platform."
+            "This is a project composed of three components designed and implemented for the university course: Software Engineering.",
+            "I worked mostly on the backend and on the admin web application, it was a group project and the group was composed of eight people.",
+            "Its aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their workplace, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application communicates with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be also used by anonymous people (simply without logging in) to increment a counter to keep the count on how many people there are inside an area. This was thought, in case of emergency, to have an approximative number of people inside an area",
+            "We used Kubernetes to deploy the backend on the Google Cloud Platform."
         ],
         "links": [
             {
@@ -110,8 +110,8 @@
             "Constraint programming"
         ],
         "paragraphs": [
-            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Decision Making With Constraint Programming",
-            "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances travelled by some trucks to bring packages to the customers."
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Decision Making With Constraint Programming.",
+            "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances traveled by some trucks to bring packages to the customers."
         ],
         "links": [
             {
@@ -133,7 +133,7 @@
             "web scrapping"
         ],
         "paragraphs": [
-            "Web application developed with flask and beautifulsoup which scraps the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
+            "Web application developed with flask and beautifulsoup, which scraps the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
             "The application is built and deployed through GitLab CI/CD."
         ],
         "links": [
@@ -155,8 +155,8 @@
             "OOP"
         ],
         "paragraphs": [
-            "This is a project developed for the university course: Object-Oriented Programming",
-            "Developed with C++ and Qt, it is a turn based card game with a complex hierarchy/card combination and a simply gamepaly."
+            "This is a project developed for the university course: Object-Oriented Programming.",
+            "Developed with C++ and Qt, it is a turn-based card game with a complex hierarchy/card combination and simple gameplay."
         ],
         "links": [
             {
@@ -175,7 +175,7 @@
         ],
         "paragraphs": [
             "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Usability and User Experience Design.",
-            "It's a design project, our aim was to redesing the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made an ethnographical reasearch to understand what tools are used by the journalists, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
+            "It's a design project, our aim was to redesign the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made ethnographical research to understand what tools are used by the journalists, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
         ],
         "links": [
             {
@@ -199,7 +199,7 @@
         ],
         "paragraphs": [
             "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a>, <a href=\"https://github.com/Viktory97\">Vittoria Conte</a> and me for the university course: Computational Mathematics.",
-            "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyse them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality shows some charts generated in Mathemathica through a device."
+            "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyze them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality shows some charts generated in Mathemathica through a device."
         ],
         "links": [
             {
@@ -216,9 +216,9 @@
             "GitHub Actions"
         ],
         "paragraphs": [
-            "This website is my portfolio where I describe all my personal and accademic projects.",
+            "This website is my portfolio, where I describe all my personal and academic projects.",
             "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
-            "The projects \"posts\" are automatically generated from a json file."
+            "The project's \"posts\" are automatically generated from a JSON file."
         ],
         "links": [
             {
@@ -239,8 +239,8 @@
             "python-telegram-bot"
         ],
         "paragraphs": [
-            "This bot allows to manage a Raspberry Pi.",
-            "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperatuyre of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
+            "This bot allows managing a Raspberry Pi.",
+            "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperature of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
         ],
         "links": [
             {
@@ -262,7 +262,7 @@
         ],
         "paragraphs": [
             "This is a project developed for the university course: System Simulation.",
-            "I developed two different networks with Omnet++ IDE and run the simulation for both of them. Then I analysed the data obtained from the simulations to get some performance measures."
+            "I developed two different networks with Omnet++ IDE and ran the simulation for both of them. Then I analyzed the data obtained from the simulations to get some performance measures."
         ],
         "links": [
             {
@@ -280,9 +280,9 @@
             "macOS"
         ],
         "paragraphs": [
-            "This project aims to create a Safari Web Extension to avoid some websites to open links with their URL placed in front of the real URL.",
+            "This project aims to create a Safari Web Extension to prevent some websites from opening links with their URL placed in front of the real URL.",
             "This project is also a way to show my abilities to create macOS applications and extensions with the Swift Programming Language.",
-            "The Web Extension is written in JavaScript and could be exported to other browser in future."
+            "The Web Extension is written in JavaScript and could be exported to other browsers in the future."
         ],
         "links": [
             {
@@ -306,7 +306,7 @@
             "We used antlr4 language to define a grammar for the SimpLanPlus programming language and the tools provided by antlr to generate the lexer, the parser and some other interfaces to read a program written in SimpLanPlus.",
             "We defined the node for the Abstract Syntax Tree which provides four key methods: <ul><li>Semantic checker</li><li>Effect checker</li><li>Type checker</li><li>Code generator</li></ul>",
             "We defined an assembly-like language and implemented an interpreter to compute the programs written in SimpLanPlus.",
-            "The most interest part of this project was the semantic and effect checker of the compiler. It can identify at compile time errors like: undeclared variables and functions and memory errors like pointers not handled correctly (delete after delete, read after delete and so on). Another interesting part of the project was the interpreter and the code generation. We did (more or less) the same thing Java does: we compile the SimpLanPlus program in an intermediate language and then the interpreter interpretes that language."
+            "The most interesting part of this project was the semantic and effect checker of the compiler. It can identify at compile time errors like: undeclared variables and functions and memory errors like pointers not handled correctly (delete after delete, read after delete and so on). Another interesting part of the project was the interpreter and the code generation. We did (more or less) the same thing Java does: we compile the SimpLanPlus program in an intermediate language and then the interpreter interprets that language."
         ],
         "links": [
             {
@@ -321,8 +321,8 @@
             "Rust"
         ],
         "paragraphs": [
-            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accept a yaml file in input which represents the directories, subdirectories and files of the project.",
-            "The aim is to create an hub where users can upload their project templates files for themselves and other users."
+            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accepts a YAML file in input which represents the directories, subdirectories and files of the project.",
+            "The aim is to create a hub where users can upload their project templates files for themselves and other users."
         ],
         "links": [
             {
@@ -346,12 +346,12 @@
         "paragraphs": [
             "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Artificial Intelligence.",
             "We started from the INVALSI dataset which was analyzed with Python and Pandas to identify correlations between columns, to convert questions in subject matter and mental process and other EDA (Exploratory Data Analysis) operations. We resampled the dataset trying different techniques like random-undersampling and SMOTE.",
-            "Then, we used Keras and Tensorflow to build a neural network to determine, if a student (beginning from his/her INVALSI result) could be a risk to \"drop\" (with the meaning of finish the mandatory school but with a very low performance) the school. ",
-            "We explored the use of different layers and different network architecture. We began with the input layers, they are mapped to the features identified in the dataset during its analysis. Then, we added an encoding layer for each input to convert them in a way which will simplify the work to the network. Then, we used a sequence of layers each one with a custom number (128 by default) of neurons fully connected to the neurons of the next layer, each neurons is activated by a function choosen between ReLU and Leaky ReLU. After this sequence there could be a dropout layer and/or a batch normalization layer. Lastly, the output layer: one neuron activated by the Sigmoid function (in the case when we consider the problem a regression problem) or two neurons activated by the Softmax function (in the case when we consider the problem a classification problem).",
-            "We compiled the model with Adam as optimizer and the crossentropy as loss function. ",
-            "We used an early stopper to avoid the over-fitting problem and trained the model for 50-100 epoches.",
-            "Finaly we used the confusion matrix obtained from the training data, validation data and the test data to draw our conclusions about how much accurate our model was.",
-            "We tried different hyperparameters looking for the best configuration. We wrote (in italian) our results (and the different operations performed) in a Jupyter Notebook available in the repository."
+            "Then, we used Keras and Tensorflow to build a neural network to determine, if a student (beginning from his/her INVALSI result) could be a risk to \"drop\" (with the meaning of finish the mandatory school but with very low performance) the school. ",
+            "We explored the use of different layers and different network architectures. We began with the input layers, they are mapped to the features identified in the dataset during its analysis. Then, we added an encoding layer for each input to convert them in a way that will simplify the work to the network. Then, we used a sequence of layers each one with a customs number (128 by default) of neurons fully connected to the neurons of the next layer, each neuron is activated by a function chosen between ReLU and Leaky ReLU. After this sequence, there could be a dropout layer and/or a batch normalization layer. Lastly, the output layer: one neuron activated by the Sigmoid function (in the case when we consider the problem a regression problem) or two neurons activated by the Softmax function (in the case when we consider the problem a classification problem).",
+            "We compiled the model with Adam as the optimizer and the crossentropy as loss function. ",
+            "We used an early stopper to avoid the over-fitting problem and trained the model for 50-100 epochs.",
+            "Finally, we used the confusion matrix obtained from the training data, validation data and the test data to draw conclusions about how accurate our model was.",
+            "We tried different hyperparameters looking for the best configuration. We wrote (in Italian) our results (and the different operations performed) in a Jupyter Notebook available in the repository."
         ],
         "links": [
             {
