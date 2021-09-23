@@ -8,7 +8,7 @@
     </div>
     <vue-frappe
       id="tags"
-      title="Technologies - top ten"
+      title="Technologies and topics - top ten"
       :labels="this.tags_label"
       type="pie"
       :maxSlices="10"
