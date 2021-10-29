@@ -359,5 +359,27 @@
                 "link": "https://github.com/MickPerl/MachineLearningProject"
             }
         ]
+    },
+    {
+        "title": "RemiToCal",
+        "tags": [
+            "Swift",
+            "SwiftUI",
+            "EventKit",
+            "iOS",
+            "macOS",
+            "iCloudKit"
+        ],
+        "paragraphs": [
+            "RemiToCal is an application developed for iOS and macOS with Swift and SwiftUI.",
+            "It is an app that connects to the Reminders and Calendar apps. It retrieves all the reminders with a due date and allows the user to add them to the calendar.",
+            "There are some customizations in the settings section and, it is localized in different languages."
+        ],
+        "links": [
+            {
+                "name": "GitLab repository",
+                "link": "https://gitlab.com/jjocram/remitocal"
+            }
+        ]
     }
 ]
