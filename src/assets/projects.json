@@ -368,7 +368,7 @@
             "EventKit",
             "iOS",
             "macOS",
-            "iCloudKit"
+            "CloudKit"
         ],
         "paragraphs": [
             "RemiToCal is an application developed for iOS and macOS with Swift and SwiftUI.",
