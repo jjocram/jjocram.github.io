@@ -6,9 +6,9 @@
         This section contains some statistics about my projects
       </h2>
     </div>
+    <h3 class="subtitle">Technologies and topics - top ten</h3>
     <vue-frappe
       id="tags"
-      title="Technologies and topics - top ten"
       :labels="this.tags_label"
       type="pie"
       :maxSlices="10"
