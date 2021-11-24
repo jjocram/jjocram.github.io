@@ -381,5 +381,34 @@
                 "link": "https://gitlab.com/jjocram/remitocal"
             }
         ]
+    },
+    {
+        "title": "Seminar about HardHat and demo with it",
+        "tags": [
+            "Blockchain",
+            "HardHat",
+            "Ethereum",
+            "Waffle",
+            "GitLab CI",
+            "JS",
+            "Python",
+            "Web3",
+            "Solidity"
+        ],
+        "paragraphs": [
+            "This seminar was held for the university course: Blockchain and cryptocurrencies.",
+            "I prepared some slides to explain what HardHat is and how it works.",
+            "Then I showed a demo: I wrote a smart contract for a takeaway shop with some offer is some properties were respected. Then I wrote a suite of test s with Waffle and then I generated the code coverage report with the HardHat's plugin solidity-coverage. I configured the GitLab CI to executes the tests and publishes the code coverage report."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/smart-takeaway"
+            },
+            {
+                "name": "Slides",
+                "link": "https://gitlab.com/jjocram/smart-takeaway/-/blob/main/slides-presentation/HardHat.pdf"
+            }
+        ]
     }
 ]
