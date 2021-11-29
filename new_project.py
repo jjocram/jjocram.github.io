@@ -2,8 +2,24 @@ import json
 
 PATH_TO_JSON_FILE = "src/assets/projects.json"
 
+last_projects = {}
 new_project_flag = True
 new_projects = []
+tags_counter = {}
+
+with open(PATH_TO_JSON_FILE, 'r+') as json_file:
+    last_projects = json.load(json_file)
+    for el in last_projects:
+        for tag in el["tags"]:
+            if tags_counter.get(tag):
+                tags_counter[tag] += 1
+            else:
+                tags_counter[tag] = 1
+    tags = sorted(list(map(lambda tag_key: (tag_key, tags_counter[tag_key]), tags_counter)), key=lambda tag: tag[0])
+    for tag in tags:
+        print(tag)
+
+
 while new_project_flag:
     new_project = {}
     new_project["title"] = input("Project title: ")
