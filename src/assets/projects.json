@@ -3,7 +3,8 @@
         "title": "ASCIIMoji",
         "tags": [
             "Rust",
-            "CLI"
+            "CLI",
+            "GitLab CI/CD"
         ],
         "paragraphs": [
             "A Command Line Interface developed with Rust.",
@@ -130,7 +131,8 @@
             "Python",
             "Flask",
             "Beautifulsoup",
-            "web scrapping"
+            "web scrapping",
+            "GitLab CI/CD"
         ],
         "paragraphs": [
             "Web application developed with flask and beautifulsoup, which scraps the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
