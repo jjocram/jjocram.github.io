@@ -412,5 +412,35 @@
                 "link": "https://gitlab.com/jjocram/smart-takeaway/-/blob/main/slides-presentation/HardHat.pdf"
             }
         ]
+    },
+    {
+        "title": "Decentralized authorization service in IOTA v2",
+        "tags": [
+            "Blockchain",
+            "IOTA",
+            "Ethereum",
+            "Solidity",
+            "Web3",
+            "Ether.js",
+            "Python",
+            "Flask",
+            "React",
+            "HardHat"
+        ],
+        "paragraphs": [
+            "This is a project developed for the uiverisity course: Blockchain and cryptocurrencies.",
+            "The aim of the project was to realize a Proof of Concept of the system described in the article \"Personal Data Access Through Distributed Authorization\", moving the smart contracts from Ethereum to IOTA v2.",
+            "I used docker and docker-compose to create a develepoment network starting from the sources by IOTA/WASP, then I took the smart contracts developed by Mirko Zichicchi and I deployed them on the EVM chain of the GoShimmer Network. Then I used Python, Flask and Web3 to create a \"dumb\" authorization service and React and Ether.js to create a simple webapp to allow the Data Owner and the Data Consumer to interact with the smart contracts."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/poc-das-iota"
+            },
+            {
+                "name": "\"Personal Data Access Through Distribuited Authorization\"",
+                "link": "https://ieeexplore.ieee.org/document/9306721"
+            }
+        ]
     }
 ]
