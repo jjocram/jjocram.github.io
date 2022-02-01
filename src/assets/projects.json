@@ -379,7 +379,7 @@
         ],
         "links": [
             {
-                "name": "GitLab repository",
+                "name": "GitLab Repository",
                 "link": "https://gitlab.com/jjocram/remitocal"
             }
         ]
@@ -428,7 +428,7 @@
             "HardHat"
         ],
         "paragraphs": [
-            "This is a project developed for the uiverisity course: Blockchain and cryptocurrencies.",
+            "This is a project developed for the univerisity course: Blockchain and cryptocurrencies.",
             "The aim of the project was to realize a Proof of Concept of the system described in the article \"Personal Data Access Through Distributed Authorization\", moving the smart contracts from Ethereum to IOTA v2.",
             "I used docker and docker-compose to create a develepoment network starting from the sources by IOTA/WASP, then I took the smart contracts developed by Mirko Zichicchi and I deployed them on the EVM chain of the GoShimmer Network. Then I used Python, Flask and Web3 to create a \"dumb\" authorization service and React and Ether.js to create a simple webapp to allow the Data Owner and the Data Consumer to interact with the smart contracts."
         ],
