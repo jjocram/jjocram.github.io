@@ -6,7 +6,7 @@
         This section contains the projects I worked and I'm working on
       </h2>
     </div>
-        <div class="card mb-4" v-for="project in projects.slice().reverse()" :key="project.title">
+    <div class="card mb-4" v-for="project in projects.slice().reverse()" :key="project.title" v-bind:id="titleToId(project.title)">
           <header class="card-header">
             <p class="card-header-title">
             {{ project.title }}
@@ -39,6 +39,11 @@ import projectsData from "../assets/projects.json"
 
 export default {
   name: 'Projects',
+  methods: {
+    titleToId(title) {
+      return title.toLowerCase().split(' ').join('-')
+    }
+  },
   data() {
     return {
       projects: projectsData,
