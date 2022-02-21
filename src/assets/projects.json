@@ -442,5 +442,27 @@
                 "link": "https://ieeexplore.ieee.org/document/9306721"
             }
         ]
+    },
+    {
+        "title": "Collaborative Location and Activity Recommendations",
+        "tags": [
+            "Scala",
+            "Spark",
+            "Google Cloud Platform"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/andreagurioli1995\">Andrea Gurioli</a> and me for the university course: Scalable and Cloud Computing.",
+            "We worked on the algorithm presented in the article \u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d trying to improve it with the aim of parallelization. We used Scala and Spark to execute our version of the algorithm, and then we deployed it on Google Cloud Platform to perform Strong and Weak Scalability analysis."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/TommasoAzz/collaborative-location-activity-recommendations"
+            },
+            {
+                "name": "\u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d",
+                "link": "https://home.cse.ust.hk/~qyang/Docs/2010/www10_clar_2.pdf"
+            }
+        ]
     }
 ]
