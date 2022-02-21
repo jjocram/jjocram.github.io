@@ -6,17 +6,25 @@
         This section contains some statistics about my projects
       </h2>
     </div>
-    <h3 class="subtitle">Technologies and topics - top ten</h3>
-    <vue-frappe
-      id="tags"
-      :labels="this.tags_label"
-      type="pie"
-      :maxSlices="10"
-      :height="300"
-      :colors="[]"
-      :tooltipOptions="this.tooltipOptions"
-      :dataSets="this.data">
-    </vue-frappe>
+    <div class="columns">
+      <div class="column">
+        <h3 class="subtitle has-text-centered">Number of projects</h3>
+        <p style="font-size:10vh" class="has-text-centered">{{ number_of_projects }}</p>
+      </div>
+      <div class="column">
+        <h3 class="subtitle has-text-centered">Technologies and topics - top ten</h3>
+        <vue-frappe
+          id="tags"
+          :labels="this.tags_label"
+          type="pie"
+          :maxSlices="10"
+          :height="300"
+          :colors="[]"
+          :tooltipOptions="this.tooltipOptions"
+          :dataSets="this.data">
+        </vue-frappe>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -37,7 +45,10 @@ export default {
     var tags = {}
     var tags_values = [];
     var tags_names = [];
+    var number_of_projects = 0;
     for (const project of projectsData){
+      number_of_projects += 1;
+
       for (const tag of project.tags) {
         if (tag in tags) {
           tags[tag] = tags[tag] + 1;
@@ -58,6 +69,7 @@ export default {
     }
 
     return {
+      number_of_projects: number_of_projects,
       tags_label:tags_names,
       data: [{
         name: "Tags", 
