@@ -482,8 +482,13 @@
             "This is a project developed by <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/MickPerl\\\">Michele Perlino</a>, and me for the university course: Machine Learning.",
             "This is a project related to the field of Deep Learning which aims to implement from scratch the state-of-art object detection algorithm YOLO by using the PyTorch library. We had to delve into Convolutional Neural Network and, specifically, YOLO architecture and thus its Darknet-53 backbone: we have studied its various features, among which anchor boxes, three scale prediction, skip connections, objectness score, non-maximum suppression, etc.",
             "We explored different hyperparameters configurations (number of training epochs, non-maximum suppression threshold, intersection over union threshold, etc, etc). Moreover, we tried to make the network lighter reducing the number of layers. We added an early stopper, and then we analyzed the data obtained to identify the best configuration. To do this kind of analysis we used Tensorboard.",
-            "<b>The repository related to this project is not yet sharable because the project has a component involved in a scientific pubblication not yet released.</b>"
+            "<b>The repository related to this project is not yet fully shareable because the project has a component involved in a scientific publication not yet released.</b> You can find only our implementation of YOLO."
         ],
-        "links": []
+        "links": [
+            {
+                "name": "Temporary GitHub Repository for YOLOv3 implementation",
+                "link": "https://github.com/TommasoAzz/yolo-v3"
+            }
+        ]
     }
 ]
