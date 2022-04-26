@@ -490,5 +490,23 @@
                 "link": "https://github.com/TommasoAzz/yolo-v3"
             }
         ]
+    },
+    {
+        "title": "Twitch Vod",
+        "tags": [
+            "Python",
+            "requests",
+            "Twitch API"
+        ],
+        "paragraphs": [
+            "Script to obtain a Twitch's VOD starting from its video ID. It interacts with Twitch's API with the Python package 'requests'.",
+            "It is installable through pip (or pipx) with <code>pipx install git+https://gitlab.com/jjocram/twitch-vod</code>"
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/twitch-vod"
+            }
+        ]
     }
 ]
