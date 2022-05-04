@@ -508,5 +508,25 @@
                 "link": "https://gitlab.com/jjocram/twitch-vod"
             }
         ]
+    },
+    {
+        "title": "TinyRexx to C++",
+        "tags": [
+            "Python",
+            "Antlr4",
+            "Transpiler",
+            "PyTest",
+            "GitLab CI/CD"
+        ],
+        "paragraphs": [
+            "This is a transpiler from TinyRexx (a simplified version of the Rexx programming language) to C++. <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/GiulioUmbrella\\\">Giulio Umbrella</a> and I did the same project in the 2019 for an exam but, with respsect to the former, I fixed some problems and change the programming language from C++ to Python.",
+            "I developed this project as an assignment for a job interview."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/tinyrexxtocpp"
+            }
+        ]
     }
 ]
