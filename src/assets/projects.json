@@ -496,16 +496,26 @@
         "tags": [
             "Python",
             "requests",
-            "Twitch API"
+            "Twitch API",
+            "Telegram Bot"
         ],
         "paragraphs": [
             "Script to obtain a Twitch's VOD starting from its video ID. It interacts with Twitch's API with the Python package 'requests'.",
-            "It is installable through pip (or pipx) with <code>pipx install git+https://gitlab.com/jjocram/twitch-vod</code>"
+            "It is installable through pip (or pipx) with <code>pipx install git+https://gitlab.com/jjocram/twitch-vod</code>.",
+            "A Telegram BOT has been realized to simplify the interaction also from mobile devices"
         ],
         "links": [
             {
-                "name": "GitLab Repository",
+                "name": "GitLab Repository package",
                 "link": "https://gitlab.com/jjocram/twitch-vod"
+            },
+            {
+                "name": "Telegram bot",
+                "link": "https://t.me/tvodBot"
+            },
+            {
+                "name": "GitLab Repository Telegram bot",
+                "link": "https://gitlab.com/jjocram/twitch-vod-telegram-bot"
             }
         ]
     },
