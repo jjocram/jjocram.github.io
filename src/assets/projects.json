@@ -496,12 +496,13 @@
         "tags": [
             "Python",
             "requests",
+            "Poetry",
             "Twitch API",
             "Telegram Bot"
         ],
         "paragraphs": [
             "Script to obtain a Twitch's VOD starting from its video ID. It interacts with Twitch's API with the Python package 'requests'.",
-            "It is installable through pip (or pipx) with <code>pipx install git+https://gitlab.com/jjocram/twitch-vod</code>.",
+            "It is manged with Poetry and deployed to PyPi. It is installable through pip (or pipx) with <code>pipx install tvod</code>.",
             "A Telegram BOT has been realized to simplify the interaction also from mobile devices"
         ],
         "links": [
