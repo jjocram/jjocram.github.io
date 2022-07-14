@@ -539,5 +539,45 @@
                 "link": "https://gitlab.com/jjocram/tinyrexxtocpp"
             }
         ]
+    },
+    {
+        "title": "Human-Robot in tandem",
+        "tags": [
+            "ROS",
+            "Python",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Machine Vision",
+            "Hand Gesture Analysis",
+            "MediaPipe",
+            "Tensorflow",
+            "Keras",
+            "Nav2",
+            "Novel Framework"
+        ],
+        "paragraphs": [
+            "For my master thesis: \"Dynamic Human Robot Interaction Framework Using Deep Learning and Robot Operating System (ROS): a practical approach\" I worked on a project called \"Human-Robot in Tandem\" with Prof. Nadia Saad Noori at the University of Agder (Norway).",
+            "The project aims to develop a novel framework to improve the interaction between humans and robots.",
+            "The final system is composed of a computer with a webcam that, through Computer Vision and Machine Learning techniques, can recognize hand gestures and then, through ROS, communicates to a robot unit to perform some activities decided by the user.",
+            "A PoC has been realized using the framework in a warehouse scenario."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/hand-gesture"
+            },
+            {
+                "name": "Thesis",
+                "link": "https://github.com/jjocram/master-thesis/releases/download/degree/thesis.pdf"
+            },
+            {
+                "name": "Human-Robot in tandem macro-repo",
+                "link": "https://github.com/jjocram/human-robot-in-tandem"
+            },
+            {
+                "name": "Presentation",
+                "link": "https://github.com/jjocram/master-thesis/releases/download/degree/presentation.pdf"
+            }
+        ]
     }
 ]
