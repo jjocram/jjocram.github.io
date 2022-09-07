@@ -579,5 +579,22 @@
                 "link": "https://github.com/jjocram/master-thesis/releases/download/degree/presentation.pdf"
             }
         ]
+    },
+    {
+        "title": "nvim-run",
+        "tags": [
+            "Neovim plugin",
+            "Lua"
+        ],
+        "paragraphs": [
+            "Execute a sequence of user-defined commands in neovim.",
+            "You decide what it is going to run. Everything is configurable with a Y<code>YAML</code> file in your <code>HOME</code> directory or in your project root directory.  You can specify different behaviors per different file type or one sequence of command to execute."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/nvim-run"
+            }
+        ]
     }
 ]
