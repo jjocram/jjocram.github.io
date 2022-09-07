@@ -588,7 +588,7 @@
         ],
         "paragraphs": [
             "Execute a sequence of user-defined commands in neovim.",
-            "You decide what it is going to run. Everything is configurable with a Y<code>YAML</code> file in your <code>HOME</code> directory or in your project root directory.  You can specify different behaviors per different file type or one sequence of command to execute."
+            "You decide what it is going to run. Everything is configurable with a <code>YAML</code> file in your <code>HOME</code> directory or in your project root directory.  You can specify different behaviors per different file type or one sequence of command to execute."
         ],
         "links": [
             {
