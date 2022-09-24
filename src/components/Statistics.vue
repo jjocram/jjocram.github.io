@@ -25,9 +25,8 @@ onMounted(() => {
     tags.delete(largestElement[0]);
   }
 
-  const ctx: CanvasRenderingContext2D = document
-    .getElementById("top-tech")
-    ?.getContext("2d");
+  const canvas = document.getElementById("top-tech") as HTMLCanvasElement;
+  const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
   const data = {
     labels: Array.from(tagsTopTen.keys()),
     datasets: [
