@@ -3,15 +3,14 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
-
-function getPublicPath() : string{
-  switch(process.env.NODE_ENV) {
-    case 'gh-production':
-      return '/jjocram.github.io/';
-    case 'glab-production':
-      return '/';
+function getPublicPath(): string {
+  switch (process.env.NODE_ENV) {
+    case "gh-production":
+      return "/jjocram.github.io/";
+    case "glab-production":
+      return "/";
     default:
-      return '/';
+      return "/";
   }
 }
 

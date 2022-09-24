@@ -2,7 +2,7 @@
 import type { ProjectModel } from "@/models/project";
 
 defineProps({
-  projects: {type: Array<ProjectModel>, required: true}
+  projects: { type: Array<ProjectModel>, required: true },
 });
 </script>
 

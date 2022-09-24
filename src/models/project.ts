@@ -14,4 +14,4 @@ class ProjectModel {
   }
 }
 
-export {ProjectModel};
+export { ProjectModel };

@@ -4,7 +4,7 @@ import { onMounted } from "vue";
 import type { ProjectModel } from "@/models/project";
 
 const props = defineProps({
-  projects: { type: Array<ProjectModel>, required: true }
+  projects: { type: Array<ProjectModel>, required: true },
 });
 
 onMounted(() => {
@@ -18,42 +18,46 @@ onMounted(() => {
   }
 
   for (let i = 0; i < 10; i++) {
-    const largestElement = [...tags.entries()].reduce((a, e) => e[1] > a[1] ? e : a);
+    const largestElement = [...tags.entries()].reduce((a, e) =>
+      e[1] > a[1] ? e : a
+    );
     tagsTopTen.set(largestElement[0], largestElement[1]);
     tags.delete(largestElement[0]);
   }
 
-
-  const ctx: CanvasRenderingContext2D = document.getElementById('top-tech')?.getContext("2d");
+  const ctx: CanvasRenderingContext2D = document
+    .getElementById("top-tech")
+    ?.getContext("2d");
   const data = {
     labels: Array.from(tagsTopTen.keys()),
-    datasets: [{
-      label: 'Top ten Technologies',
-      data: Array.from(tagsTopTen.values()),
-      backgroundColor: [
-        'rgb(255,99,71)',
-        'rgb(106,90,205)',
-        'rgb(139,0,0)',
-        'rgb(144,238,144)',
-        'rgb(47,79,79)',
-        'rgb(128,128,128)',
-        'rgb(0,128,0)',
-        'rgb(255,165,0)',
-        'rgb(255,228,196)',
-        'rgb(200,240,245)'
-      ],
-      hoverOffset: 4
-    }],
+    datasets: [
+      {
+        label: "Top ten Technologies",
+        data: Array.from(tagsTopTen.values()),
+        backgroundColor: [
+          "rgb(255,99,71)",
+          "rgb(106,90,205)",
+          "rgb(139,0,0)",
+          "rgb(144,238,144)",
+          "rgb(47,79,79)",
+          "rgb(128,128,128)",
+          "rgb(0,128,0)",
+          "rgb(255,165,0)",
+          "rgb(255,228,196)",
+          "rgb(200,240,245)",
+        ],
+        hoverOffset: 4,
+      },
+    ],
   };
   new Chart(ctx, {
     type: "pie",
     data: data,
     options: {
       responsive: true,
-      maintainAspectRatio: false
-    }
+      maintainAspectRatio: false,
+    },
   });
-
 });
 </script>
 

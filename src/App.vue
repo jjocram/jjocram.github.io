@@ -6,9 +6,11 @@ import Statistics from "./components/Statistics.vue";
 import { ProjectModel } from "@/models/project";
 import projectsData from "./assets/projects.json";
 
-const projects: Array<ProjectModel> = projectsData.map(p => Object.assign(new ProjectModel(), p));
+const projects: Array<ProjectModel> = projectsData.map((p) =>
+  Object.assign(new ProjectModel(), p)
+);
 
-document.title = 'Marco Ferrati | Portfolio';
+document.title = "Marco Ferrati | Portfolio";
 </script>
 
 <template>
