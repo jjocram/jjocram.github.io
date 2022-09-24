@@ -1,13 +1,13 @@
 [
     {
-        "title": "ASCIIMoji",
+  "title": "ASCIIMoji",
         "tags": [
             "Rust",
             "CLI",
-            "GitLab CI/CD"
+  "GitLab CI/CD"
         ],
         "paragraphs": [
-            "A Command Line Interface developed with Rust.",
+  "A Command Line Interface developed with Rust.",
             "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remember how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located on the disk and downloaded from the repository the emoticon assocciated to a name.",
             "For example, <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
             "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."

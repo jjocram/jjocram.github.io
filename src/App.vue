@@ -1,34 +1,29 @@
-<template>
-  <Header></Header>
-  <AboutMe></AboutMe>
-  <Statistics></Statistics>
-  <Projects></Projects>
-</template>
+<script setup lang="ts">
+import Header from "./components/Header.vue";
+import AboutMe from "./components/AboutMe.vue";
+import Projects from "./components/Projects.vue";
+import Statistics from "./components/Statistics.vue";
+import { ProjectModel } from "@/models/project";
+import projectsData from "./assets/projects.json";
 
-<script>
-import Header from './components/Header.vue'
-import AboutMe from './components/AboutMe.vue'
-import Statistics from './components/Statistics.vue'
-import Projects from './components/Projects.vue'
+const projects: Array<ProjectModel> = projectsData.map(p => Object.assign(new ProjectModel(), p));
 
-export default {
-  name: 'App',
-  components: {
-    Header,
-    AboutMe,
-    Statistics,
-    Projects
-  },
-  created() {
-    document.title = 'Marco Ferrati | Portfolio';
-    var fontAwesomeScript = document.createElement('script');
-    fontAwesomeScript.src = 'https://use.fontawesome.com/d525360c90.js'
-    document.head.appendChild(fontAwesomeScript);
-  }
-}
+document.title = 'Marco Ferrati | Portfolio';
 </script>
 
-<style>
+<template>
+  <header>
+    <Header />
+  </header>
+
+  <main>
+    <AboutMe />
+    <Statistics :projects="projects" />
+    <Projects :projects="projects" />
+  </main>
+</template>
+
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
