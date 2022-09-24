@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "bulma": "^0.9.4",
     "chart.js": "^3.9.1",
+    "execa": "^6.1.0",
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2",
     "vue": "^3.2.38",
