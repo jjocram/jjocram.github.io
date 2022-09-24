@@ -214,8 +214,11 @@
         "title": "My Portfolio (this website)",
         "tags": [
             "Vue.js",
+            "Bulma CSS",
+            "Chart.js",
             "GitLab CI/CD",
-            "GitHub Actions"
+            "GitHub Actions",
+            "NameCheap"
         ],
         "paragraphs": [
             "This website is my portfolio, where I describe all my personal and academic projects.",
