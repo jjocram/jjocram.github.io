@@ -1,5 +1,5 @@
-const execa = require("execa");
-const fs = require("fs");
+const execa = await import ("execa");
+const fs = await import("fs");
 (async () => {
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
