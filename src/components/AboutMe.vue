@@ -5,7 +5,7 @@
       <tbody>
         <tr>
           <td class="presentation-cell">
-            <h2 class="subtitle">My name is Marco Ferrati,</h2>
+            <h2 class="subtitle">My name is Marco Ferrati, and I am</h2>
           </td>
           <td class="presentation-cell">
             <h2 class="subtitle">a PhD student at the University of Bologna</h2>
