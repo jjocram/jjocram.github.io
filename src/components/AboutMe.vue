@@ -8,6 +8,13 @@
             <h2 class="subtitle">My name is Marco Ferrati,</h2>
           </td>
           <td class="presentation-cell">
+            <h2 class="subtitle">a PhD student at the University of Bologna</h2>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td class="presentation-cell">
             <h2 class="subtitle past">
               an MSc student in Computer Science at the University of Bologna.
             </h2>
