@@ -52,6 +52,14 @@
                 >Telegram&ensp;<font-awesome-icon icon="fa-brands fa-telegram"
               /></a>
             </li>
+            <li>
+              <a
+                rel="me"
+                href="https://mastodon.online/@jjocram"
+                target="_blank"
+                >Mastodon&ensp;<font-awesome-icon icon="fa-brands fa-mastodon"
+              /></a>
+            </li>
           </ul>
         </div>
       </nav>
