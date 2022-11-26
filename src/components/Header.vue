@@ -47,6 +47,11 @@
                 >Twitter&ensp;<font-awesome-icon icon="fa-brands fa-twitter"
               /></a>
             </li>
+            <li>
+              <a href="https://t.me/itInterestingStuff" target="_blank"
+                >Telegram&ensp;<font-awesome-icon icon="fa-brands fa-telegram"
+              /></a>
+            </li>
           </ul>
         </div>
       </nav>

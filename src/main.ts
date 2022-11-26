@@ -8,8 +8,9 @@ import {
   faGitlab,
   faTwitter,
   faLinkedin,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
-library.add(faGithub, faGitlab, faTwitter, faLinkedin);
+library.add(faGithub, faGitlab, faTwitter, faLinkedin, faTelegram);
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
