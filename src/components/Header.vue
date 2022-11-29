@@ -6,7 +6,7 @@
           <figure class="image is-128x128">
             <img
               class="is-rounded"
-              src="https://s6.imgcdn.dev/G2uLL.png"
+              src="@/assets/IMG_0132.png"
               alt="My dog, an irish terrier"
             />
           </figure>
