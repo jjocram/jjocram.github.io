@@ -270,7 +270,7 @@
       "Compiler",
       "Interpreter",
       "Antlr4",
-      "Java11",
+      "Java",
       "Maven",
       "Static analysis"
     ],
@@ -550,6 +550,28 @@
       {
         "name": "GitHub Repository",
         "link": "https://github.com/zsol/py.wtf"
+      }
+    ]
+  },
+  {
+    "title": "SharedNotes",
+    "tags": ["Java", "Maven", "Spring Boot", "Vaadin", "Typescript", "Angular"],
+    "paragraphs": [
+      "This is a PoC to test different technologies to create the same project: a web application to share notes.",
+      "I tried two approaches: <ol><li>A web service written with Spring Boot and a front-end written with Angular</li><li>A web application written with Vaadin</li></ol>"
+    ],
+    "links": [
+      {
+        "name": "Spring boot backend",
+        "link": "https://github.com/jjocram/SharedNotes-Backend"
+      },
+      {
+        "name": "Angular frontend",
+        "link": "https://github.com/jjocram/SharedNotes-Frontend"
+      },
+      {
+        "name": "Spring boot Vaadin",
+        "link": "https://github.com/jjocram/SharedNotes-Vaadin"
       }
     ]
   }
