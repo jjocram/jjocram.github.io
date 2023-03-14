@@ -1,578 +1,669 @@
 [
-  {
-    "title": "ASCIIMoji",
-    "tags": ["Rust", "CLI", "GitLab CI/CD"],
-    "paragraphs": [
-      "A Command Line Interface developed with Rust.",
-      "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remember how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located on the disk and downloaded from the repository the emoticon assocciated to a name.",
-      "For example, <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
-      "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."
-    ],
-    "links": [
-      {
-        "name": "GitLab repository",
-        "link": "https://gitlab.com/jjocram/asciimoji"
-      },
-      {
-        "name": "Crates.io page",
-        "link": "https://crates.io/crates/asciimoji"
-      },
-      {
-        "name": "Homebrew tap GitHub repository",
-        "link": "https://github.com/jjocram/homebrew-asciimoji"
-      }
-    ]
-  },
-  {
-    "title": "ACMESky",
-    "tags": [
-      "SWE",
-      "SOA",
-      "BPMN",
-      "Docker",
-      "OpenAPI",
-      "Python",
-      "RabbitMQ",
-      "Redis",
-      "PostgreSQL",
-      "Angular",
-      "WebSocket",
-      "MKDocs"
-    ],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Service Oriented Software Engineering.",
-      "Its aim was to design and implement a Service-Oriented Architecture. The company ACMESky is a website that allows the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
-      "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://github.com/sosengers/project-sources"
-      },
-      {
-        "name": "Documentation",
-        "link": "https://sosengers.github.io/project-documentation/"
-      },
-      {
-        "name": "Documentation source code",
-        "link": "https://github.com/sosengers/project-documentation"
-      }
-    ]
-  },
-  {
-    "title": "Stalker (it's not what you think)",
-    "tags": [
-      "SWE",
-      "QA",
-      "Python",
-      "Flask",
-      "Angular",
-      "Angular Material",
-      "Leaflet",
-      "Android",
-      "Java",
-      "Docker",
-      "Kubernetes",
-      "Google Cloud Platform",
-      "LDAP",
-      "PostgreSQL",
-      "RethinkDB"
-    ],
-    "paragraphs": [
-      "This is a project composed of three components designed and implemented for the university course: Software Engineering.",
-      "I worked mostly on the backend and on the admin web application, it was a group project and the group was composed of eight people.",
-      "Its aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their workplace, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application communicates with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be also used by anonymous people (simply without logging in) to increment a counter to keep the count on how many people there are inside an area. This was thought, in case of emergency, to have an approximative number of people inside an area",
-      "We used Kubernetes to deploy the backend on the Google Cloud Platform."
-    ],
-    "links": [
-      {
-        "name": "Backend source code",
-        "link": "https://gitlab.com/jjocram/Stalker_backend"
-      },
-      {
-        "name": "Admin web application source code",
-        "link": "https://gitlab.com/jjocram/Stalker_webapp"
-      },
-      {
-        "name": "Android app source code",
-        "link": "https://gitlab.com/jjocram/Stalker_App"
-      }
-    ]
-  },
-  {
-    "title": "Vehicle Routing Problem solved with Constraint Programming",
-    "tags": ["MiniZinc", "Minimization problem", "Constraint programming"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Decision Making With Constraint Programming.",
-      "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances traveled by some trucks to bring packages to the customers."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/vrp-csp"
-      },
-      {
-        "name": "Vehicle routing problem description",
-        "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
-      }
-    ]
-  },
-  {
-    "title": "UniBO Calendar",
-    "tags": [
-      "Python",
-      "Flask",
-      "Beautifulsoup",
-      "web scrapping",
-      "GitLab CI/CD"
-    ],
-    "paragraphs": [
-      "Web application developed with flask and beautifulsoup, which scraps the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
-      "The application is built and deployed through GitLab CI/CD."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/unibo-calendar"
-      },
-      {
-        "name": "UniBo Calendar on Heroku (it could be a bit slowy at start time)",
-        "link": "https://unibocalendar.herokuapp.com"
-      }
-    ]
-  },
-  {
-    "title": "QardGame",
-    "tags": ["C++", "Qt", "OOP"],
-    "paragraphs": [
-      "This is a project developed for the university course: Object-Oriented Programming.",
-      "Developed with C++ and Qt, it is a turn-based card game with a complex hierarchy/card combination and simple gameplay."
-    ],
-    "links": [
-      {
-        "name": "Source code",
-        "link": "https://gitlab.com/jjocram/qardgame"
-      }
-    ]
-  },
-  {
-    "title": "Redesign dashboard Covid-19 Italy 'Protezione Civile' [Italian]",
-    "tags": ["UUX", "UI", "Accessibility", "LaTeX"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Usability and User Experience Design.",
-      "It's a design project, our aim was to redesign the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made ethnographical research to understand what tools are used by the journalists, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
-    ],
-    "links": [
-      {
-        "name": "Main GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Redesign-Dashboard-Covid-Protezione-Civile"
-      },
-      {
-        "name": "PDF report GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Project-Management-Report/tree/5ad4ab2ee5b4e5e094ca472a5a909aa2ae69ce16"
-      },
-      {
-        "name": "PDF final design GitHub repository",
-        "link": "https://github.com/MickPerl/PlainX_Final-Design/tree/9eb6ab7401e890bd35a31fe8696f0497a7db1c7b"
-      }
-    ]
-  },
-  {
-    "title": "Italy 2018 Election data analysis",
-    "tags": ["Wolfram Mathematica"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a>, <a href=\"https://github.com/Viktory97\">Vittoria Conte</a> and me for the university course: Computational Mathematics.",
-      "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyze them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality shows some charts generated in Mathemathica through a device."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/italy-2018-election-data-mathematica"
-      }
-    ]
-  },
-  {
-    "title": "My Portfolio (this website)",
-    "tags": [
-      "Vue.js",
-      "Bulma CSS",
-      "Chart.js",
-      "GitLab CI/CD",
-      "GitHub Actions",
-      "NameCheap"
-    ],
-    "paragraphs": [
-      "This website is my portfolio, where I describe all my personal and academic projects.",
-      "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
-      "The project's \"posts\" are automatically generated from a JSON file."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/jjocram.gitlab.io"
-      },
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/jjocram.github.io"
-      }
-    ]
-  },
-  {
-    "title": "RaspyBot",
-    "tags": ["Python", "Telegram Bot", "python-telegram-bot"],
-    "paragraphs": [
-      "This bot allows managing a Raspberry Pi.",
-      "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperature of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/RaspyBot"
-      },
-      {
-        "name": "Telegram bot",
-        "link": "https://t.me/marcosraspybot"
-      }
-    ]
-  },
-  {
-    "title": "System Simulation - Queue Network simulation",
-    "tags": ["Omnet++", "C++", "Python"],
-    "paragraphs": [
-      "This is a project developed for the university course: System Simulation.",
-      "I developed two different networks with Omnet++ IDE and ran the simulation for both of them. Then I analyzed the data obtained from the simulations to get some performance measures."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/simulazionedisistemi"
-      }
-    ]
-  },
-  {
-    "title": "Url Follower Remover",
-    "tags": ["Swift", "JS", "SafariWebExtension", "macOS"],
-    "paragraphs": [
-      "This project aims to create a Safari Web Extension to prevent some websites from opening links with their URL placed in front of the real URL.",
-      "This project is also a way to show my abilities to create macOS applications and extensions with the Swift Programming Language.",
-      "The Web Extension is written in JavaScript and could be exported to other browsers in the future."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/urlfollowerremover"
-      }
-    ]
-  },
-  {
-    "title": "SimpLanPlus",
-    "tags": [
-      "Compiler",
-      "Interpreter",
-      "Antlr4",
-      "Java",
-      "Maven",
-      "Static analysis"
-    ],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Compilers and Interpreters.",
-      "We used antlr4 language to define a grammar for the SimpLanPlus programming language and the tools provided by antlr to generate the lexer, the parser and some other interfaces to read a program written in SimpLanPlus.",
-      "We defined the node for the Abstract Syntax Tree which provides four key methods: <ul><li>Semantic checker</li><li>Effect checker</li><li>Type checker</li><li>Code generator</li></ul>",
-      "We defined an assembly-like language and implemented an interpreter to compute the programs written in SimpLanPlus.",
-      "The most interesting part of this project was the semantic and effect checker of the compiler. It can identify at compile time errors like: undeclared variables and functions and memory errors like pointers not handled correctly (delete after delete, read after delete and so on). Another interesting part of the project was the interpreter and the code generation. We did (more or less) the same thing Java does: we compile the SimpLanPlus program in an intermediate language and then the interpreter interprets that language."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/SimpLanPlus"
-      }
-    ]
-  },
-  {
-    "title": "Project Template",
-    "tags": ["Rust"],
-    "paragraphs": [
-      "Utility for the creation of the structure of new projects. The CLI is written in Rust and accepts a YAML file in input which represents the directories, subdirectories and files of the project.",
-      "The aim is to create a hub where users can upload their project templates files for themselves and other users."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/project-template"
-      }
-    ]
-  },
-  {
-    "title": "Deep learning network for school dropout",
-    "tags": [
-      "Machine Learning",
-      "Deep Learning",
-      "Python",
-      "Tensorflow",
-      "Keras",
-      "Pandas",
-      "Jupyter Notebook",
-      "Artificial Intelligence"
-    ],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Artificial Intelligence.",
-      "We started from the INVALSI dataset which was analyzed with Python and Pandas to identify correlations between columns, to convert questions in subject matter and mental process and other EDA (Exploratory Data Analysis) operations. We resampled the dataset trying different techniques like random-undersampling and SMOTE.",
-      "Then, we used Keras and Tensorflow to build a neural network to determine, if a student (beginning from his/her INVALSI result) could be a risk to \"drop\" (with the meaning of finish the mandatory school but with very low performance) the school. ",
-      "We explored the use of different layers and different network architectures. We began with the input layers, they are mapped to the features identified in the dataset during its analysis. Then, we added an encoding layer for each input to convert them in a way that will simplify the work to the network. Then, we used a sequence of layers each one with a customs number (128 by default) of neurons fully connected to the neurons of the next layer, each neuron is activated by a function chosen between ReLU and Leaky ReLU. After this sequence, there could be a dropout layer and/or a batch normalization layer. Lastly, the output layer: one neuron activated by the Sigmoid function (in the case when we consider the problem a regression problem) or two neurons activated by the Softmax function (in the case when we consider the problem a classification problem).",
-      "We compiled the model with Adam as the optimizer and the crossentropy as loss function. ",
-      "We used an early stopper to avoid the over-fitting problem and trained the model for 50-100 epochs.",
-      "Finally, we used the confusion matrix obtained from the training data, validation data and the test data to draw conclusions about how accurate our model was.",
-      "We tried different hyperparameters looking for the best configuration. We wrote (in Italian) our results (and the different operations performed) in a Jupyter Notebook available in the repository."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/MickPerl/MachineLearningProject"
-      }
-    ]
-  },
-  {
-    "title": "RemiToCal",
-    "tags": ["Swift", "SwiftUI", "EventKit", "iOS", "macOS", "CloudKit"],
-    "paragraphs": [
-      "RemiToCal is an application developed for iOS and macOS with Swift and SwiftUI.",
-      "It is an app that connects to the Reminders and Calendar apps. It retrieves all the reminders with a due date and allows the user to add them to the calendar.",
-      "There are some customizations in the settings section and, it is localized in different languages."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/remitocal"
-      }
-    ]
-  },
-  {
-    "title": "Seminar about HardHat and demo with it",
-    "tags": [
-      "Blockchain",
-      "HardHat",
-      "Ethereum",
-      "Waffle",
-      "GitLab CI/CD",
-      "JS",
-      "Python",
-      "Web3",
-      "Solidity"
-    ],
-    "paragraphs": [
-      "This seminar was held for the university course: Blockchain and cryptocurrencies.",
-      "I prepared some slides to explain what HardHat is and how it works.",
-      "Then I showed a demo: I wrote a smart contract for a takeaway shop with some offer if some properties were respected. Then I wrote a suite of tests with Waffle and then I generated the code coverage report with the HardHat's plugin solidity-coverage. I configured the GitLab CI to executes the tests and publishes the code coverage report on the repository page."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/smart-takeaway"
-      },
-      {
-        "name": "Slides",
-        "link": "https://gitlab.com/jjocram/smart-takeaway/-/blob/main/slides-presentation/HardHat.pdf"
-      }
-    ]
-  },
-  {
-    "title": "Decentralized authorization service in IOTA v2",
-    "tags": [
-      "Blockchain",
-      "IOTA",
-      "Ethereum",
-      "Solidity",
-      "Web3",
-      "Ether.js",
-      "Python",
-      "Flask",
-      "React",
-      "HardHat"
-    ],
-    "paragraphs": [
-      "This is a project developed for the univerisity course: Blockchain and cryptocurrencies.",
-      "The aim of the project was to realize a Proof of Concept of the system described in the article \"Personal Data Access Through Distributed Authorization\", moving the smart contracts from Ethereum to IOTA v2.",
-      "I used docker and docker-compose to create a develepoment network starting from the sources by IOTA/WASP, then I took the smart contracts developed by Mirko Zichicchi and I deployed them on the EVM chain of the GoShimmer Network. Then I used Python, Flask and Web3 to create a \"dumb\" authorization service and React and Ether.js to create a simple webapp to allow the Data Owner and the Data Consumer to interact with the smart contracts."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/poc-das-iota"
-      },
-      {
-        "name": "\"Personal Data Access Through Distribuited Authorization\"",
-        "link": "https://ieeexplore.ieee.org/document/9306721"
-      }
-    ]
-  },
-  {
-    "title": "Collaborative Location and Activity Recommendations",
-    "tags": ["Scala", "Spark", "Google Cloud Platform"],
-    "paragraphs": [
-      "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/andreagurioli1995\">Andrea Gurioli</a> and me for the university course: Scalable and Cloud Programming.",
-      "We worked on the algorithm presented in the article \u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d trying to improve it with the aim of parallelization. We used Scala and Spark to execute our version of the algorithm, and then we deployed it on Google Cloud Platform to perform Strong and Weak Scalability analysis."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/TommasoAzz/collaborative-location-activity-recommendations"
-      },
-      {
-        "name": "\u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d",
-        "link": "https://home.cse.ust.hk/~qyang/Docs/2010/www10_clar_2.pdf"
-      }
-    ]
-  },
-  {
-    "title": "YOLO v3 with PyTorch",
-    "tags": [
-      "Machine Learning",
-      "PyTorch",
-      "Deep Learning",
-      "CNN",
-      "YOLO v3",
-      "Computer Vision",
-      "Python",
-      "TensorBoard",
-      "Artificial Intelligence"
-    ],
-    "paragraphs": [
-      "This is a project developed by <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/MickPerl\\\">Michele Perlino</a>, and me for the university course: Machine Learning.",
-      "This is a project related to the field of Deep Learning which aims to implement from scratch the state-of-art object detection algorithm YOLO by using the PyTorch library. We had to delve into Convolutional Neural Network and, specifically, YOLO architecture and thus its Darknet-53 backbone: we have studied its various features, among which anchor boxes, three scale prediction, skip connections, objectness score, non-maximum suppression, etc.",
-      "We explored different hyperparameters configurations (number of training epochs, non-maximum suppression threshold, intersection over union threshold, etc, etc). Moreover, we tried to make the network lighter reducing the number of layers. We added an early stopper, and then we analyzed the data obtained to identify the best configuration. To do this kind of analysis we used Tensorboard.",
-      "<b>The repository related to this project is not yet fully shareable because the project has a component involved in a scientific publication not yet released.</b> You can find only our implementation of YOLO."
-    ],
-    "links": [
-      {
-        "name": "Temporary GitHub Repository for YOLOv3 implementation",
-        "link": "https://github.com/TommasoAzz/yolo-v3"
-      }
-    ]
-  },
-  {
-    "title": "Twitch Vod",
-    "tags": ["Python", "requests", "Poetry", "Twitch API", "Telegram Bot"],
-    "paragraphs": [
-      "Script to obtain a Twitch's VOD starting from its video ID. It interacts with Twitch's API with the Python package 'requests'.",
-      "It is manged with Poetry and deployed to PyPi. It is installable through pip (or pipx) with <code>pipx install tvod</code>.",
-      "A Telegram BOT has been realized to simplify the interaction also from mobile devices"
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository package",
-        "link": "https://gitlab.com/jjocram/twitch-vod"
-      },
-      {
-        "name": "Telegram bot",
-        "link": "https://t.me/tvodBot"
-      },
-      {
-        "name": "GitLab Repository Telegram bot",
-        "link": "https://gitlab.com/jjocram/twitch-vod-telegram-bot"
-      }
-    ]
-  },
-  {
-    "title": "TinyRexx to C++",
-    "tags": ["Python", "Antlr4", "Transpiler", "PyTest", "GitLab CI/CD"],
-    "paragraphs": [
-      "This is a transpiler from TinyRexx (a simplified version of the Rexx programming language) to C++. <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/GiulioUmbrella\\\">Giulio Umbrella</a> and I did the same project in the 2019 for an exam but, with respsect to the former, I fixed some problems and change the programming language from C++ to Python.",
-      "I developed this project as an assignment for a job interview."
-    ],
-    "links": [
-      {
-        "name": "GitLab Repository",
-        "link": "https://gitlab.com/jjocram/tinyrexxtocpp"
-      }
-    ]
-  },
-  {
-    "title": "Human-Robot in tandem",
-    "tags": [
-      "ROS",
-      "Python",
-      "Machine Learning",
-      "Artificial Intelligence",
-      "Machine Vision",
-      "Hand Gesture Analysis",
-      "MediaPipe",
-      "Tensorflow",
-      "Keras",
-      "Nav2",
-      "Novel Framework"
-    ],
-    "paragraphs": [
-      "For my master thesis: \"Dynamic Human Robot Interaction Framework Using Deep Learning and Robot Operating System (ROS): a practical approach\" I worked on a project called \"Human-Robot in Tandem\" with Prof. Nadia Saad Noori at the University of Agder (Norway).",
-      "The project aims to develop a novel framework to improve the interaction between humans and robots.",
-      "The final system is composed of a computer with a webcam that, through Computer Vision and Machine Learning techniques, can recognize hand gestures and then, through ROS, communicates to a robot unit to perform some activities decided by the user.",
-      "A PoC has been realized using the framework in a warehouse scenario."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/hand-gesture"
-      },
-      {
-        "name": "Thesis",
-        "link": "https://github.com/jjocram/master-thesis/releases/download/degree/thesis.pdf"
-      },
-      {
-        "name": "Human-Robot in tandem macro-repo",
-        "link": "https://github.com/jjocram/human-robot-in-tandem"
-      },
-      {
-        "name": "Presentation",
-        "link": "https://github.com/jjocram/master-thesis/releases/download/degree/presentation.pdf"
-      }
-    ]
-  },
-  {
-    "title": "nvim-run",
-    "tags": ["Neovim plugin", "Lua"],
-    "paragraphs": [
-      "Execute a sequence of user-defined commands in neovim.",
-      "You decide what it is going to run. Everything is configurable with a <code>YAML</code> file in your <code>HOME</code> directory or in your project root directory.  You can specify different behaviors per different file type or one sequence of command to execute."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/jjocram/nvim-run"
-      }
-    ]
-  },
-  {
-    "title": "py.wtf",
-    "tags": ["Python", "React", "Typescript"],
-    "paragraphs": [
-      "I work on this open source project in my free time. I started working on the website part fixing some issue and making PRs that have been merged."
-    ],
-    "links": [
-      {
-        "name": "GitHub Repository",
-        "link": "https://github.com/zsol/py.wtf"
-      }
-    ]
-  },
-  {
-    "title": "SharedNotes",
-    "tags": ["Java", "Maven", "Spring Boot", "Vaadin", "Typescript", "Angular"],
-    "paragraphs": [
-      "This is a PoC to test different technologies to create the same project: a web application to share notes.",
-      "I tried two approaches: <ol><li>A web service written with Spring Boot and a front-end written with Angular</li><li>A web application written with Vaadin</li></ol>"
-    ],
-    "links": [
-      {
-        "name": "Spring boot backend",
-        "link": "https://github.com/jjocram/SharedNotes-Backend"
-      },
-      {
-        "name": "Angular frontend",
-        "link": "https://github.com/jjocram/SharedNotes-Frontend"
-      },
-      {
-        "name": "Spring boot Vaadin",
-        "link": "https://github.com/jjocram/SharedNotes-Vaadin"
-      }
-    ]
-  }
+    {
+        "title": "ASCIIMoji",
+        "tags": [
+            "Rust",
+            "CLI",
+            "GitLab CI/CD"
+        ],
+        "paragraphs": [
+            "A Command Line Interface developed with Rust.",
+            "I don't like the classical emoticons (&#128540;), on the Internet exists another type of emoticon composed by characters (._.) but they are a bit difficult to remember how to type, so I'm developing this tool (also to study the Rust Programming Language) that search in an editable YAML file located on the disk and downloaded from the repository the emoticon assocciated to a name.",
+            "For example, <code>asciimoji shrug</code> will print on the terminal \u00af\\_(\u30c4)_/\u00af (this is a particular type of emoticon called kaomoji).",
+            "I published the package through Crates.io (<code>cargo install asciimoji</code>) and HomeBrew (<code>brew install jjocram/homebrew-asciimoji/asciimoji</code>)."
+        ],
+        "links": [
+            {
+                "name": "GitLab repository",
+                "link": "https://gitlab.com/jjocram/asciimoji"
+            },
+            {
+                "name": "Crates.io page",
+                "link": "https://crates.io/crates/asciimoji"
+            },
+            {
+                "name": "Homebrew tap GitHub repository",
+                "link": "https://github.com/jjocram/homebrew-asciimoji"
+            }
+        ]
+    },
+    {
+        "title": "ACMESky",
+        "tags": [
+            "SWE",
+            "SOA",
+            "BPMN",
+            "Docker",
+            "OpenAPI",
+            "Python",
+            "RabbitMQ",
+            "Redis",
+            "PostgreSQL",
+            "Angular",
+            "WebSocket",
+            "MKDocs"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Service Oriented Software Engineering.",
+            "Its aim was to design and implement a Service-Oriented Architecture. The company ACMESky is a website that allows the users to register a travel interest and starting from an offer code generated buy, through a Payment Provider, the travel's flight.",
+            "We used a lot of different technologies: Docker, Docker-compose, Python, Flask, Camunda, OpenAPI, Jolie, Redis, RabbitMQ, PostgreSQL, MongoDB, Angular, WebSocket, MkDocs and MkDocs-material."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://github.com/sosengers/project-sources"
+            },
+            {
+                "name": "Documentation",
+                "link": "https://sosengers.github.io/project-documentation/"
+            },
+            {
+                "name": "Documentation source code",
+                "link": "https://github.com/sosengers/project-documentation"
+            }
+        ]
+    },
+    {
+        "title": "Stalker (it's not what you think)",
+        "tags": [
+            "SWE",
+            "QA",
+            "Python",
+            "Flask",
+            "Angular",
+            "Angular Material",
+            "Leaflet",
+            "Android",
+            "Java",
+            "Docker",
+            "Kubernetes",
+            "Google Cloud Platform",
+            "LDAP",
+            "PostgreSQL",
+            "RethinkDB"
+        ],
+        "paragraphs": [
+            "This is a project composed of three components designed and implemented for the university course: Software Engineering.",
+            "I worked mostly on the backend and on the admin web application, it was a group project and the group was composed of eight people.",
+            "Its aim was to develop a system to track the user inside an area, it was thought to simplify the registration of workers inside their workplace, the person uses LDAP to authenticate him/herself on his/her smartphone, using the GPS the application retrieves the user position and communicates with the backend that saves the location of the user if it was inside a pre-registered area (pre-registered from the organization). The application could be also used by anonymous people (simply without logging in) to increment a counter to keep the count on how many people there are inside an area. This was thought, in case of emergency, to have an approximative number of people inside an area",
+            "We used Kubernetes to deploy the backend on the Google Cloud Platform."
+        ],
+        "links": [
+            {
+                "name": "Backend source code",
+                "link": "https://gitlab.com/jjocram/Stalker_backend"
+            },
+            {
+                "name": "Admin web application source code",
+                "link": "https://gitlab.com/jjocram/Stalker_webapp"
+            },
+            {
+                "name": "Android app source code",
+                "link": "https://gitlab.com/jjocram/Stalker_App"
+            }
+        ]
+    },
+    {
+        "title": "Vehicle Routing Problem solved with Constraint Programming",
+        "tags": [
+            "MiniZinc",
+            "Minimization problem",
+            "Constraint programming"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Decision Making With Constraint Programming.",
+            "We used MiniZinc to design and implement a model for the Vehicle Routing Problem. It's a minimization problem where we had to minimize the distances traveled by some trucks to bring packages to the customers."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/vrp-csp"
+            },
+            {
+                "name": "Vehicle routing problem description",
+                "link": "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
+            }
+        ]
+    },
+    {
+        "title": "UniBO Calendar",
+        "tags": [
+            "Python",
+            "Flask",
+            "Beautifulsoup",
+            "web scrapping",
+            "GitLab CI/CD"
+        ],
+        "paragraphs": [
+            "Web application developed with flask and beautifulsoup, which scraps the UniBO websites to retrieve, parse and generate a course lesson timetable and export it to iCal format.",
+            "The application is built and deployed through GitLab CI/CD."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/unibo-calendar"
+            },
+            {
+                "name": "UniBo Calendar on Heroku (it could be a bit slowy at start time)",
+                "link": "https://unibocalendar.herokuapp.com"
+            }
+        ]
+    },
+    {
+        "title": "QardGame",
+        "tags": [
+            "C++",
+            "Qt",
+            "OOP"
+        ],
+        "paragraphs": [
+            "This is a project developed for the university course: Object-Oriented Programming.",
+            "Developed with C++ and Qt, it is a turn-based card game with a complex hierarchy/card combination and simple gameplay."
+        ],
+        "links": [
+            {
+                "name": "Source code",
+                "link": "https://gitlab.com/jjocram/qardgame"
+            }
+        ]
+    },
+    {
+        "title": "Redesign dashboard Covid-19 Italy 'Protezione Civile' [Italian]",
+        "tags": [
+            "UUX",
+            "UI",
+            "Accessibility",
+            "LaTeX"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Usability and User Experience Design.",
+            "It's a design project, our aim was to redesign the current national dashboard on Covid-19 (<a href=\"https://opendatadpc.maps.arcgis.com/apps/dashboards/b0c68bce2cce478eaac82fe38d4138b1\">this one</a>). We made ethnographical research to understand what tools are used by the journalists, we designed different scenarios and personas, we followed the CAO=S model to identify concepts, actors, operations and structures, then we designed the blueprints and the wireframes of our redesign. We ended with inspection and testing on our redesign."
+        ],
+        "links": [
+            {
+                "name": "Main GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Redesign-Dashboard-Covid-Protezione-Civile"
+            },
+            {
+                "name": "PDF report GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Project-Management-Report/tree/5ad4ab2ee5b4e5e094ca472a5a909aa2ae69ce16"
+            },
+            {
+                "name": "PDF final design GitHub repository",
+                "link": "https://github.com/MickPerl/PlainX_Final-Design/tree/9eb6ab7401e890bd35a31fe8696f0497a7db1c7b"
+            }
+        ]
+    },
+    {
+        "title": "Italy 2018 Election data analysis",
+        "tags": [
+            "Wolfram Mathematica"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a>, <a href=\"https://github.com/Viktory97\">Vittoria Conte</a> and me for the university course: Computational Mathematics.",
+            "We took the data of the election 2018 and created three user interfaces in Wolfram Mathematica to explore and analyze them. Michele Perlino created a companion mobile Unity app that, with the help of Augmented Reality shows some charts generated in Mathemathica through a device."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/italy-2018-election-data-mathematica"
+            }
+        ]
+    },
+    {
+        "title": "My Portfolio (this website)",
+        "tags": [
+            "Vue.js",
+            "Bulma CSS",
+            "Chart.js",
+            "GitLab CI/CD",
+            "GitHub Actions",
+            "NameCheap"
+        ],
+        "paragraphs": [
+            "This website is my portfolio, where I describe all my personal and academic projects.",
+            "It's realized with Vue.js (it was also a way to test it out) and deployed both on GitLab pages with GitLab CI/CD and GitHub pages with GitHub Action.",
+            "The project's \"posts\" are automatically generated from a JSON file."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/jjocram.gitlab.io"
+            },
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/jjocram.github.io"
+            }
+        ]
+    },
+    {
+        "title": "RaspyBot",
+        "tags": [
+            "Python",
+            "Telegram Bot",
+            "python-telegram-bot"
+        ],
+        "paragraphs": [
+            "This bot allows managing a Raspberry Pi.",
+            "It is a very simple bot with three commands (at least for now): <ul><li><span style=\"font-weight: bold\">get_temp</span> will return the temperature of the Raspberry</li><li><span style=\"font-weight: bold\">get_ip</span> will return the public IP</li><li><span style=\"font-weight: bold\">update</span> will update Raspberry Pi OS</li></ul>"
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/RaspyBot"
+            },
+            {
+                "name": "Telegram bot",
+                "link": "https://t.me/marcosraspybot"
+            }
+        ]
+    },
+    {
+        "title": "System Simulation - Queue Network simulation",
+        "tags": [
+            "Omnet++",
+            "C++",
+            "Python"
+        ],
+        "paragraphs": [
+            "This is a project developed for the university course: System Simulation.",
+            "I developed two different networks with Omnet++ IDE and ran the simulation for both of them. Then I analyzed the data obtained from the simulations to get some performance measures."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/simulazionedisistemi"
+            }
+        ]
+    },
+    {
+        "title": "Url Follower Remover",
+        "tags": [
+            "Swift",
+            "JS",
+            "SafariWebExtension",
+            "macOS"
+        ],
+        "paragraphs": [
+            "This project aims to create a Safari Web Extension to prevent some websites from opening links with their URL placed in front of the real URL.",
+            "This project is also a way to show my abilities to create macOS applications and extensions with the Swift Programming Language.",
+            "The Web Extension is written in JavaScript and could be exported to other browsers in the future."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/urlfollowerremover"
+            }
+        ]
+    },
+    {
+        "title": "SimpLanPlus",
+        "tags": [
+            "Compiler",
+            "Interpreter",
+            "Antlr4",
+            "Java",
+            "Maven",
+            "Static analysis"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a> and me for the university course: Compilers and Interpreters.",
+            "We used antlr4 language to define a grammar for the SimpLanPlus programming language and the tools provided by antlr to generate the lexer, the parser and some other interfaces to read a program written in SimpLanPlus.",
+            "We defined the node for the Abstract Syntax Tree which provides four key methods: <ul><li>Semantic checker</li><li>Effect checker</li><li>Type checker</li><li>Code generator</li></ul>",
+            "We defined an assembly-like language and implemented an interpreter to compute the programs written in SimpLanPlus.",
+            "The most interesting part of this project was the semantic and effect checker of the compiler. It can identify at compile time errors like: undeclared variables and functions and memory errors like pointers not handled correctly (delete after delete, read after delete and so on). Another interesting part of the project was the interpreter and the code generation. We did (more or less) the same thing Java does: we compile the SimpLanPlus program in an intermediate language and then the interpreter interprets that language."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/SimpLanPlus"
+            }
+        ]
+    },
+    {
+        "title": "Project Template",
+        "tags": [
+            "Rust"
+        ],
+        "paragraphs": [
+            "Utility for the creation of the structure of new projects. The CLI is written in Rust and accepts a YAML file in input which represents the directories, subdirectories and files of the project.",
+            "The aim is to create a hub where users can upload their project templates files for themselves and other users."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/project-template"
+            }
+        ]
+    },
+    {
+        "title": "Deep learning network for school dropout",
+        "tags": [
+            "Machine Learning",
+            "Deep Learning",
+            "Python",
+            "Tensorflow",
+            "Keras",
+            "Pandas",
+            "Jupyter Notebook",
+            "Artificial Intelligence"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/MickPerl\">Michele Perlino</a> and me for the university course: Artificial Intelligence.",
+            "We started from the INVALSI dataset which was analyzed with Python and Pandas to identify correlations between columns, to convert questions in subject matter and mental process and other EDA (Exploratory Data Analysis) operations. We resampled the dataset trying different techniques like random-undersampling and SMOTE.",
+            "Then, we used Keras and Tensorflow to build a neural network to determine, if a student (beginning from his/her INVALSI result) could be a risk to \"drop\" (with the meaning of finish the mandatory school but with very low performance) the school. ",
+            "We explored the use of different layers and different network architectures. We began with the input layers, they are mapped to the features identified in the dataset during its analysis. Then, we added an encoding layer for each input to convert them in a way that will simplify the work to the network. Then, we used a sequence of layers each one with a customs number (128 by default) of neurons fully connected to the neurons of the next layer, each neuron is activated by a function chosen between ReLU and Leaky ReLU. After this sequence, there could be a dropout layer and/or a batch normalization layer. Lastly, the output layer: one neuron activated by the Sigmoid function (in the case when we consider the problem a regression problem) or two neurons activated by the Softmax function (in the case when we consider the problem a classification problem).",
+            "We compiled the model with Adam as the optimizer and the crossentropy as loss function. ",
+            "We used an early stopper to avoid the over-fitting problem and trained the model for 50-100 epochs.",
+            "Finally, we used the confusion matrix obtained from the training data, validation data and the test data to draw conclusions about how accurate our model was.",
+            "We tried different hyperparameters looking for the best configuration. We wrote (in Italian) our results (and the different operations performed) in a Jupyter Notebook available in the repository."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/MickPerl/MachineLearningProject"
+            }
+        ]
+    },
+    {
+        "title": "RemiToCal",
+        "tags": [
+            "Swift",
+            "SwiftUI",
+            "EventKit",
+            "iOS",
+            "macOS",
+            "CloudKit"
+        ],
+        "paragraphs": [
+            "RemiToCal is an application developed for iOS and macOS with Swift and SwiftUI.",
+            "It is an app that connects to the Reminders and Calendar apps. It retrieves all the reminders with a due date and allows the user to add them to the calendar.",
+            "There are some customizations in the settings section and, it is localized in different languages."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/remitocal"
+            }
+        ]
+    },
+    {
+        "title": "Seminar about HardHat and demo with it",
+        "tags": [
+            "Blockchain",
+            "HardHat",
+            "Ethereum",
+            "Waffle",
+            "GitLab CI/CD",
+            "JS",
+            "Python",
+            "Web3",
+            "Solidity"
+        ],
+        "paragraphs": [
+            "This seminar was held for the university course: Blockchain and cryptocurrencies.",
+            "I prepared some slides to explain what HardHat is and how it works.",
+            "Then I showed a demo: I wrote a smart contract for a takeaway shop with some offer if some properties were respected. Then I wrote a suite of tests with Waffle and then I generated the code coverage report with the HardHat's plugin solidity-coverage. I configured the GitLab CI to executes the tests and publishes the code coverage report on the repository page."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/smart-takeaway"
+            },
+            {
+                "name": "Slides",
+                "link": "https://gitlab.com/jjocram/smart-takeaway/-/blob/main/slides-presentation/HardHat.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Decentralized authorization service in IOTA v2",
+        "tags": [
+            "Blockchain",
+            "IOTA",
+            "Ethereum",
+            "Solidity",
+            "Web3",
+            "Ether.js",
+            "Python",
+            "Flask",
+            "React",
+            "HardHat"
+        ],
+        "paragraphs": [
+            "This is a project developed for the univerisity course: Blockchain and cryptocurrencies.",
+            "The aim of the project was to realize a Proof of Concept of the system described in the article \"Personal Data Access Through Distributed Authorization\", moving the smart contracts from Ethereum to IOTA v2.",
+            "I used docker and docker-compose to create a develepoment network starting from the sources by IOTA/WASP, then I took the smart contracts developed by Mirko Zichicchi and I deployed them on the EVM chain of the GoShimmer Network. Then I used Python, Flask and Web3 to create a \"dumb\" authorization service and React and Ether.js to create a simple webapp to allow the Data Owner and the Data Consumer to interact with the smart contracts."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/poc-das-iota"
+            },
+            {
+                "name": "\"Personal Data Access Through Distribuited Authorization\"",
+                "link": "https://ieeexplore.ieee.org/document/9306721"
+            }
+        ]
+    },
+    {
+        "title": "Collaborative Location and Activity Recommendations",
+        "tags": [
+            "Scala",
+            "Spark",
+            "Google Cloud Platform"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\"https://github.com/TommasoAzz\">Tommaso Azzalin</a>, <a href=\"https://github.com/andreagurioli1995\">Andrea Gurioli</a> and me for the university course: Scalable and Cloud Programming.",
+            "We worked on the algorithm presented in the article \u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d trying to improve it with the aim of parallelization. We used Scala and Spark to execute our version of the algorithm, and then we deployed it on Google Cloud Platform to perform Strong and Weak Scalability analysis."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/TommasoAzz/collaborative-location-activity-recommendations"
+            },
+            {
+                "name": "\u201cCollaborative Location and Activity Recommendations with GPS History Data\u201d",
+                "link": "https://home.cse.ust.hk/~qyang/Docs/2010/www10_clar_2.pdf"
+            }
+        ]
+    },
+    {
+        "title": "YOLO v3 with PyTorch",
+        "tags": [
+            "Machine Learning",
+            "PyTorch",
+            "Deep Learning",
+            "CNN",
+            "YOLO v3",
+            "Computer Vision",
+            "Python",
+            "TensorBoard",
+            "Artificial Intelligence"
+        ],
+        "paragraphs": [
+            "This is a project developed by <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/MickPerl\\\">Michele Perlino</a>, and me for the university course: Machine Learning.",
+            "This is a project related to the field of Deep Learning which aims to implement from scratch the state-of-art object detection algorithm YOLO by using the PyTorch library. We had to delve into Convolutional Neural Network and, specifically, YOLO architecture and thus its Darknet-53 backbone: we have studied its various features, among which anchor boxes, three scale prediction, skip connections, objectness score, non-maximum suppression, etc.",
+            "We explored different hyperparameters configurations (number of training epochs, non-maximum suppression threshold, intersection over union threshold, etc, etc). Moreover, we tried to make the network lighter reducing the number of layers. We added an early stopper, and then we analyzed the data obtained to identify the best configuration. To do this kind of analysis we used Tensorboard.",
+            "<b>The repository related to this project is not yet fully shareable because the project has a component involved in a scientific publication not yet released.</b> You can find only our implementation of YOLO."
+        ],
+        "links": [
+            {
+                "name": "Temporary GitHub Repository for YOLOv3 implementation",
+                "link": "https://github.com/TommasoAzz/yolo-v3"
+            }
+        ]
+    },
+    {
+        "title": "Twitch Vod",
+        "tags": [
+            "Python",
+            "requests",
+            "Poetry",
+            "Twitch API",
+            "Telegram Bot"
+        ],
+        "paragraphs": [
+            "Script to obtain a Twitch's VOD starting from its video ID. It interacts with Twitch's API with the Python package 'requests'.",
+            "It is manged with Poetry and deployed to PyPi. It is installable through pip (or pipx) with <code>pipx install tvod</code>.",
+            "A Telegram BOT has been realized to simplify the interaction also from mobile devices"
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository package",
+                "link": "https://gitlab.com/jjocram/twitch-vod"
+            },
+            {
+                "name": "Telegram bot",
+                "link": "https://t.me/tvodBot"
+            },
+            {
+                "name": "GitLab Repository Telegram bot",
+                "link": "https://gitlab.com/jjocram/twitch-vod-telegram-bot"
+            }
+        ]
+    },
+    {
+        "title": "TinyRexx to C++",
+        "tags": [
+            "Python",
+            "Antlr4",
+            "Transpiler",
+            "PyTest",
+            "GitLab CI/CD"
+        ],
+        "paragraphs": [
+            "This is a transpiler from TinyRexx (a simplified version of the Rexx programming language) to C++. <a href=\\\"https://github.com/TommasoAzz\\\">Tommaso Azzalin</a>, <a href=\\\"https://github.com/GiulioUmbrella\\\">Giulio Umbrella</a> and I did the same project in the 2019 for an exam but, with respsect to the former, I fixed some problems and change the programming language from C++ to Python.",
+            "I developed this project as an assignment for a job interview."
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/tinyrexxtocpp"
+            }
+        ]
+    },
+    {
+        "title": "Human-Robot in tandem",
+        "tags": [
+            "ROS",
+            "Python",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Machine Vision",
+            "Hand Gesture Analysis",
+            "MediaPipe",
+            "Tensorflow",
+            "Keras",
+            "Nav2",
+            "Novel Framework"
+        ],
+        "paragraphs": [
+            "For my master thesis: \"Dynamic Human Robot Interaction Framework Using Deep Learning and Robot Operating System (ROS): a practical approach\" I worked on a project called \"Human-Robot in Tandem\" with Prof. Nadia Saad Noori at the University of Agder (Norway).",
+            "The project aims to develop a novel framework to improve the interaction between humans and robots.",
+            "The final system is composed of a computer with a webcam that, through Computer Vision and Machine Learning techniques, can recognize hand gestures and then, through ROS, communicates to a robot unit to perform some activities decided by the user.",
+            "A PoC has been realized using the framework in a warehouse scenario."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/hand-gesture"
+            },
+            {
+                "name": "Thesis",
+                "link": "https://github.com/jjocram/master-thesis/releases/download/degree/thesis.pdf"
+            },
+            {
+                "name": "Human-Robot in tandem macro-repo",
+                "link": "https://github.com/jjocram/human-robot-in-tandem"
+            },
+            {
+                "name": "Presentation",
+                "link": "https://github.com/jjocram/master-thesis/releases/download/degree/presentation.pdf"
+            }
+        ]
+    },
+    {
+        "title": "nvim-run",
+        "tags": [
+            "Neovim plugin",
+            "Lua"
+        ],
+        "paragraphs": [
+            "Execute a sequence of user-defined commands in neovim.",
+            "You decide what it is going to run. Everything is configurable with a <code>YAML</code> file in your <code>HOME</code> directory or in your project root directory.  You can specify different behaviors per different file type or one sequence of command to execute."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/nvim-run"
+            }
+        ]
+    },
+    {
+        "title": "py.wtf",
+        "tags": [
+            "Python",
+            "React",
+            "Typescript"
+        ],
+        "paragraphs": [
+            "I work on this open source project in my free time. I started working on the website part fixing some issue and making PRs that have been merged."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/zsol/py.wtf"
+            }
+        ]
+    },
+    {
+        "title": "SharedNotes",
+        "tags": [
+            "Java",
+            "Maven",
+            "Spring Boot",
+            "Vaadin",
+            "Typescript",
+            "Angular"
+        ],
+        "paragraphs": [
+            "This is a PoC to test different technologies to create the same project: a web application to share notes.",
+            "I tried two approaches: <ol><li>A web service written with Spring Boot and a front-end written with Angular</li><li>A web application written with Vaadin</li></ol>"
+        ],
+        "links": [
+            {
+                "name": "Spring boot backend",
+                "link": "https://github.com/jjocram/SharedNotes-Backend"
+            },
+            {
+                "name": "Angular frontend",
+                "link": "https://github.com/jjocram/SharedNotes-Frontend"
+            },
+            {
+                "name": "Spring boot Vaadin",
+                "link": "https://github.com/jjocram/SharedNotes-Vaadin"
+            }
+        ]
+    },
+    {
+        "title": "Pizza-PCA",
+        "tags": [
+            "Python",
+            "PCA",
+            "Jupyter Notebook",
+            "SciKit-Learn"
+        ],
+        "paragraphs": [
+            "This project has been made for the PhD course: Low-rank approaches for data analysis: models, numerical methods and applications.",
+            "I applied the PCA (Principal Component Analysis) on a dataset about pizzas. The dataset contains data from 9 different brands and the results could help to choose which brand of pizza an user can prefer based on similarity with other brands.",
+            "The aim was to understand (and visualize) information presents on the dataset with the PCA technique."
+        ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "link": "https://github.com/jjocram/Pizza-PCA"
+            }
+        ]
+    }
 ]
