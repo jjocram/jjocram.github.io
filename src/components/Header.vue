@@ -11,7 +11,7 @@
             />
           </figure>
           <figure class="image is-128x128">
-            <img class="is-rounded" src="@/assets/IMG_1871.png" alt="Me" />
+            <img class="is-rounded" src="@/assets/IMG_1871.jpeg" alt="Me" />
           </figure>
         </div>
         <div class="column is-narrow">
