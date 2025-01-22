@@ -719,5 +719,31 @@
                 "link": "https://binaryspritz.com"
             }
         ]
+    },
+    {
+        "title": "ARMS",
+        "tags": [
+            "Kotlin",
+            "kalasim",
+            "Ktor",
+            "React",
+            "BPMN.js",
+            "Typescript",
+            "BPMN",
+            "Process Simulation"
+        ],
+        "paragraphs": [
+            "Modeler (made with React and <a href=\"https://bpmn.io/toolkit/bpmn-js/\">bpmn-js</a>) and Simualtor (made with <a href=\"https://www.kalasim.org\">Kalasim</a> and <a href=\"https://ktor.io\">Ktor</a>) for business and manufacturing processes."
+        ],
+        "links": [
+            {
+                "name": "Modeler",
+                "link": "https://github.com/jjocram/ARMS-Editor"
+            },
+            {
+                "name": "Simulator",
+                "link": "https://github.com/jjocram/ARMS-Simulation-Engine"
+            }
+        ]
     }
 ]
