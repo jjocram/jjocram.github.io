@@ -745,5 +745,24 @@
                 "link": "https://github.com/jjocram/ARMS-Simulation-Engine"
             }
         ]
+    },
+    {
+        "title": "SecureDocs",
+        "tags": [
+            "PHP",
+            "Symfony",
+            "MySQL",
+            "ELK",
+            "Twig"
+        ],
+        "paragraphs": [
+            "This is a project made to study PHP and Symfony"
+        ],
+        "links": [
+            {
+                "name": "GitLab Repository",
+                "link": "https://gitlab.com/jjocram/securedocs"
+            }
+        ]
     }
 ]
