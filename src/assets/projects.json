@@ -754,7 +754,7 @@
             "MySQL",
             "ELK",
             "Twig",
-            "Docker",
+            "Docker"
         ],
         "paragraphs": [
             "This is a project made to study PHP and Symfony.",
