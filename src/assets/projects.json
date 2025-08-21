@@ -759,8 +759,7 @@
         "paragraphs": [
             "This is a project made to study PHP and Symfony.",
             "Both webpages and RESTFul API have been implemented. The former with very simple Twig templates, the latter with with the JSON format.",
-            "The ELK stack has been integrated to gather and analyze the logs.",
-            "The skaffold has been made with <a href=\"https://github.com/dunglas/symfony-docker\">Symfony-Docker</a>. This way it is not necessary having the tools installed on the machine."
+            "The ELK stack has been integrated to gather and analyze the logs."
         ],
         "links": [
             {
